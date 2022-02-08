@@ -1,7 +1,14 @@
 body{
     font-family: Raleway, sans-serif;
-    font-size: 1.4em;
+    font-size: 28px;
     color: black; 
     text-align: center;
 }
+
+.container {box-sizing: content-box;}
+#top {box-sizing: top-box;}
+#left side {box-sizing: left side-box;}
+#right side {box-sizing: right side-box;}
+#middle {box-sizing: middle-box;}
+#bottom {box-sizing: bottom-box;}
 
