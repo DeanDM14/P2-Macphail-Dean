@@ -5,10 +5,22 @@ body{
     text-align: center;
 }
 
-.container {box-sizing: content-box;}
-#top {box-sizing: top-box;}
-#left side {box-sizing: left side-box;}
-#right side {box-sizing: right side-box;}
-#middle {box-sizing: middle-box;}
-#bottom {box-sizing: bottom-box;}
+.container {box-sizing: content-box;       
+    width: 100%; height: 100%;}
+
+#top {box-sizing: top-box;
+    width: 90%; height: 20%;}
+
+#left side {box-sizing: left side-box;
+    width: 60%; height: 40%;}
+
+#right side {box-sizing: right side-box;
+    width: 30%; height: 30%;}
+
+#middle {box-sizing: middle-box;
+    width: 90%; height: 30%;}
+
+#bottom {box-sizing: bottom-box;
+    width: 90%; height: 10%;}
+    
 
