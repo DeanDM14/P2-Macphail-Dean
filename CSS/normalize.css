@@ -21,7 +21,7 @@ body{
 }
 #right side {
     box-sizing: right side-box;
-    width: 30%; height: 30%; background-color: #F2F2F2;
+    width: 30%; height: 40%; background-color: #F2F2F2;
 }
 #middle {
     box-sizing: middle-box;
