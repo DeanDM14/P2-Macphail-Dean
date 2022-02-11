@@ -17,26 +17,35 @@ body
     box-sizing: content-box;       
     width: 100%; height: 100%;
 }
+
 flexbox
+
 #top {
     box-sizing: top-box;
     width: 90%; height: 20%;
 }
+
 flexbox
+
 #left side {
     box-sizing: left side-box;
     width: 60%; height: 40%; background-color: #f2f2f2;
 }
+
 flexbox
+
 #right side {
     box-sizing: right side-box;
     width: 30%; height: 40%; background-color: #F2F2F2;
 }
+
 flexbox
+
 #middle {
     box-sizing: middle-box;
     width: 90%; height: 30%;
 }
+
 flexbox
 
 #bottom {
