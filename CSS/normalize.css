@@ -1,6 +1,6 @@
-@media only screen and (min-width: 992px){ 
+@media only screen and (min-width: 992px) { 
     
-body{
+body {
     font-family: Raleway, sans-serif;
     font-size: 21px;
     color: black; 
@@ -26,6 +26,9 @@ flexbox
 
 .flex-header {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
     box-sizing: border-box;
     width: 90%; height: 5%;
 }
