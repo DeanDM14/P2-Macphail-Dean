@@ -9,13 +9,10 @@ body{
 
 flexbox
 
-.flex-body {
+.flex-contents {
+    display: flex;
     box-sizing: content-box;
     width: 100%; height: 100%;
-}
-.flex-main {
-    box-sizing: content-box;
-    width: 100%; height: 100%px;
 }
 
 .flex-container {
@@ -28,8 +25,19 @@ flexbox
 }
 
 .flex-header {
+    display: flex;
     box-sizing: border-box;
     width: 90%; height: 5%;
+}
+
+.flex-logo {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.flex-links {
+    display: flex;
+    box-sizing: border-box;
 }
 
 .flex-top {
@@ -40,7 +48,6 @@ flexbox
 .flex-middle {
     box-sizing: border-box;
     width: 90%; height: 40%;
-
 }
 
 .flex-left {
