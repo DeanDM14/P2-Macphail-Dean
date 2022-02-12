@@ -9,9 +9,11 @@
 flexbox
 
 .flex-body {
+    box-sizing: content-box;
     width: 100%; height: 100%;
 }
 .flex-main {
+    box-sizing: content-box;
     width: 100%; height: 100%;
 }
 
@@ -25,39 +27,42 @@ flexbox
 }
 
 .flex-header {
-    box-sizing: content-box;
+    box-sizing: border-box;
     width: 90%; height: 5%;
 }
 
 .flex-top {
-    box-sizing: top-box;
+    box-sizing: border-box;
     width: 90%; height: 15%;
 }
 
 .flex-middle {
+    box-sizing: border-box;
+    width: 90%; height: 40%;
 
 }
 
 .flex-left {
-    box-sizing: left side-box;
+    box-sizing: border-box;
     width: 60%; height: 40%; background-color: #f2f2f2;
 }
 
 .flex-right {
-    box-sizing: right side-box;
+    box-sizing: border-box;
     width: 30%; height: 40%; background-color: #F2F2F2;
 }
 
 .flex-bottom {
-    box-sizing: middle-box;
+    box-sizing: border-box;
     width: 90%; height: 30%;
 }
 
 .flex-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    box-sizing: bottom-box;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
     width: 100%; height: 10%;
     background-color: #F2F2F2;
 }
