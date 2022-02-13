@@ -29,36 +29,56 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: nowrap;
-        
+    flex-wrap: nowrap;        
 }
 
 .flex-logo {
     box-sizing: border-box;
+    width: 10%; height: 6%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-links {
     box-sizing: border-box;
+    width: 25%; height: 6%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
 }
 
 .flex-top {
     box-sizing: border-box;
     width: 90%; height: 15%;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
 }
 
 .flex-middle {
     box-sizing: border-box;
     width: 90%; height: 40%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .flex-left {
     box-sizing: border-box;
     width: 60%; height: 40%; 
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
     background-color: #f2f2f2;
 }
 
@@ -66,6 +86,10 @@ body {
     box-sizing: border-box;
     width: 30%; height: 40%; 
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
     background-color: #F2F2F2;
 }
 
@@ -73,6 +97,10 @@ body {
     box-sizing: border-box;
     width: 90%; height: 30%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
 }
 
 .flex-footer {
@@ -80,8 +108,9 @@ body {
     width: 100%; height: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    align-content: space-between;
     background-color: #F2F2F2;
 }
     
