@@ -1,96 +1,102 @@
 @media only screen and (min-width: 992px) { 
     
-    body {
-        font-family: Raleway, sans-serif;
-        font-size: 21px;
-        color: black; 
-        text-align: center;
-    }
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 21px;
+    color: black; 
+    text-align: center;
+}
     
     flexbox
-    .flex-contents {
-        display: flex;
-        box-sizing: content-box;
-        width: 100%; height: 100%;
-    }
+.flex-contents {
+    box-sizing: content-box;
+    width: 100%; height: 100%;
+    display: flex;
+}
     
     flexbox
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        box-sizing: content-box;       
-        width: 100%; height: 100%px;
-    }
+.flex-container {
+    box-sizing: content-box;       
+    width: 100%; height: 100%px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
     
     flexbox
-    .flex-header {
-        box-sizing: border-box;
-        width: 90%; height: 5%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: nowrap;
+.flex-header {
+    box-sizing: border-box;
+    width: 90%; height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
         
-    }
+}
     
     flexbox
-    .flex-logo {
-        display: flex;
-        box-sizing: border-box;
-    
-    }
-    
-    flexbox
-    .flex-links {
-        display: flex;
-        box-sizing: border-box;
-    }
+.flex-logo {
+    box-sizing: border-box;
+    display: flex;
+}
     
     flexbox
-    .flex-top {
-        box-sizing: border-box;
-        width: 90%; height: 15%;
-    }
+.flex-links {
+    box-sizing: border-box;
+    display: flex;
+}
     
     flexbox
-    .flex-middle {
-        box-sizing: border-box;
-        width: 90%; height: 40%;
-    }
+.flex-top {
+    box-sizing: border-box;
+    width: 90%; height: 15%;
+    display: flex;
+}
     
     flexbox
-    .flex-left {
-        box-sizing: border-box;
-        width: 60%; height: 40%; background-color: #f2f2f2;
-    }
+.flex-middle {
+    box-sizing: border-box;
+    width: 90%; height: 40%;
+    display: flex;
+}
     
     flexbox
-    .flex-right {
-        box-sizing: border-box;
-        width: 30%; height: 40%; background-color: #F2F2F2;
-    }
+.flex-left {
+    box-sizing: border-box;
+    width: 60%; height: 40%; 
+    display: flex;
+    background-color: #f2f2f2;
+}
     
     flexbox
-    .flex-bottom {
-        box-sizing: border-box;
-        width: 90%; height: 30%;
-    }
+.flex-right {
+    box-sizing: border-box;
+    width: 30%; height: 40%; 
+    display: flex;
+    background-color: #F2F2F2;
+}
     
     flexbox
-    .flex-footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        box-sizing: border-box;
-        width: 100%; height: 10%;
-        background-color: #F2F2F2;
-    }
+.flex-bottom {
+    box-sizing: border-box;
+    width: 90%; height: 30%;
+    display: flex;
+}
     
-    }
+    flexbox
+.flex-footer {
+    box-sizing: border-box;
+    width: 100%; height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+    
+}
     
     
     
