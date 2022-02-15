@@ -27,22 +27,31 @@
                 </div>
         </header>
 
-        <section class="flex-top" id="border-box">
-            <div>
+        <section class="top" id="border-box">
+            <div class="topheading">
                 <h2><strong>Find a Place for your dream vacation</strong></h2>
-                <p>Downtown or in nature</p>
+                <h4>Downtown or in nature</h4>
             </div>
-            <div>
-                <button><i class="fa-sopd fa-location-dot"></i>
-                <input type="search" (Marseille, France)>
-                Search</button>
-            </div>
-            <div>
-                <h3>Filters</h3>
-                <button><i class="fa-sopd fa-money-bill-wave"></i>Low cost</button>
-                <button><i class="fa-sopd fa-child"></i>Family-friendly</button>
-                <button><i class="fa-sopd fa-heart"></i>Romantic</button>
-                <button><i class="fa-sopd fa-dog"></i>Pets Allowed</button>
+
+            <div class="search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <form action="">
+                    <input type="text" name="(Marseille, France)">
+                    <button type="button" class="btn1">Search</button>
+                </form>
+           </div>
+
+            <div class="filters">
+                <div id="preview">   
+                    <h3>Filters</h3>
+                </div>
+                <div id="filters">
+                    <button type="button" class="btn2" id="cost"> <i class="fa-solid fa-money-bill-wave"></i>Low cost</button>
+                    <button type="button" class="btn2" id="family"> <i class="fa-solid fa-child"></i>Family-friendly</button>
+                    <button type="button" class="btn2" id="romance"> <i class="fa-solid fa-heart"></i>Romantic</button>
+                    <button type="button" class="btn2" id="pets"> <i class="fa-solid fa-dog"></i>Pets allowed</button>
+                </div>
+                
             </div>
             <div>
                 <button><i class="fa-regular fa-info"></i></button><p>More than 500 accommodations available in this
