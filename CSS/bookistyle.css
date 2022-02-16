@@ -13,7 +13,7 @@ body
     width: 100%; 
 }
 
-.flex-header
+.header
 {
     display: flex;
     justify-content: space-between;
