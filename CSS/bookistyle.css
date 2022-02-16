@@ -25,13 +25,13 @@ body
     height: 5%;
 }
 
-.logo {
-    box-sizing: border-box;
-    width: 10%; height: 6%;
+.logo
+{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 10%; height: 6%;
 }
 
 .links {
