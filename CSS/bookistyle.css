@@ -1,33 +1,32 @@
-body {
-    font-family: Raleway, sans-serif;
+body
+{
+    font-family:'Raleway', sans-serif;
     font-size: 21px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
     color: black; 
     text-align: center;
 }
 
-.flex-contents {
+.maincontainer
+{
     box-sizing: content-box;
     width: 100%; height: 100%;
-    display: flex;
 }
 
-.flex-container {
-    box-sizing: content-box;       
-    width: 100%; height: 100%px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.flex-header {
+.flex-header
+{
     box-sizing: border-box;
-    width: 90%; height: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: nowrap;        
+    padding-top: 0px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 48px;
+    height: 5%;
 }
 
 .flex-logo {
