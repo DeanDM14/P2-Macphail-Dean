@@ -73,18 +73,41 @@ body
     padding-top: 65px;
 }
 
-
-
-
-.top {
-    box-sizing: border-box;
-    width: 90%; height: 15%;
+.top 
+{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     align-content: space-between;
+    width: 90%;
+    height: 15%;
 }
+
+.topheading
+{
+    width: auto;
+}
+
+h2
+{
+    font-weight: 500px;
+    padding-top: 20px;
+    font-size: 28px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h4
+{
+    padding: 0px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
 
 .middle {
     box-sizing: border-box;
