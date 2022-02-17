@@ -87,27 +87,31 @@ body
     height: 15%;
 }
 
-    .topheading
-    {
-        width: auto;
-    }
+.topheading
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 25%;
+    height: 25%;
+}
 
-    h2
-    {
-        font-weight: 500px;
-        padding-top: 20px;
-        font-size: 28px;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
+h2
+{
+    font-weight: 500px;
+    padding-top: 20px;
+    font-size: 28px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
-    h4
-    {
-        padding: 0px;
-        font-weight: 400;
-        margin-top: 10px;
-        font-size: 20px;
-    }
+h4
+{
+    font-weight: 400;
+    padding: 0px;
+    font-size: 20px;    
+    margin-top: 10px;
+}
 
 
 
