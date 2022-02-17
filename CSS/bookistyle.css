@@ -31,18 +31,50 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 10%; height: 6%;
+    width: 10%;
+    height: 6%;
 }
 
-.links {
-    box-sizing: border-box;
-    width: 25%; height: 6%;
+#bookilogo
+{
+    width: 140px;
+}
+
+.nav-links
+{
+    padding-left: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     align-content: space-around;
+    width: 25%;
+    height: 6%;
 }
+
+#acc
+{
+    text-decoration: none;
+    width: auto;
+    padding-left: 30px;
+}
+
+#acc :hover
+{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+    padding-top: 65px;
+}
+
+#acc :active
+{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+    padding-top: 65px;
+}
+
+
+
 
 .top {
     box-sizing: border-box;
