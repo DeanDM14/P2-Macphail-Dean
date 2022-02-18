@@ -93,7 +93,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 25%;
+    width: 30%;
     height: 25%;
 }
 
@@ -112,7 +112,7 @@ h4
     
     padding: 0px;
     margin-top: 10px;
-    font-size: 20px;    
+    font-size: 21px;    
     font-weight: 400px;
 }
 
