@@ -63,17 +63,21 @@ body
 {
     width: 15%;
     height: 6%;
+    padding-left: 30px;
+    font-size: 21px;
     text-decoration: none;
 }
 
 .nav #acc :hover
 {
+    padding-top: 65px;
     color: #0065fc;
     border-top: 2px solid #0065fc;
 }
 
 .nav #acc :active
 {
+    padding-top: 65px;
     color: #0065fc;
     border-top: 2px solid #0065fc;
 }
@@ -82,6 +86,8 @@ body
 {
     width: 15%;
     height: 6%;
+    padding-left: 30px;
+    font-size: 21px;
     text-decoration: none;
 }
 
