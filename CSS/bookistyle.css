@@ -107,7 +107,7 @@ h2
 
 h4
 {
-    font-weight: 400;
+    font-weight: 400px;
     padding: 0px;
     font-size: 20px;    
     margin-top: 10px;
@@ -135,7 +135,16 @@ h4
     position: relative;
 }
 
-
+.search-box form input
+{
+    display: flex;
+    justify-content: center;
+    width: 56%;
+    height: 100%;
+    margin: 0px;
+    border: 1px solid #F2F2F2;
+    outline: none;
+}
 
 
 
