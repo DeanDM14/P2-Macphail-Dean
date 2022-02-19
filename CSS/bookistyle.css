@@ -195,7 +195,7 @@ h5
     align-content: space-between;
     flex-wrap: nowrap;
     width: 70%;
-    height: 15%;
+    height: 25%;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -261,11 +261,46 @@ h5
     background-color: #0065FC;
 }
 
+.info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 35%;
+    height: 25%;
+    margin-top: 40px;
+}
 
+.info i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 900 bolder;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+}
 
-
-
-
+.info p
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    margin-left: 14px;
+    font-size: 21px;
+}
 
 
 
