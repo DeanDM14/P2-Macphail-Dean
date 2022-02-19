@@ -386,38 +386,38 @@ h5
     border-radius: 25px 25px 0px 0px;
 }
 
-.card-info
+.card1 card-info
 {
     padding: 0px;
     margin-top: 0px;
     margin-left: 25px;
 }
 
-.card-info card-title
+.card1 card-info card-title
 {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 18px;
 }
 
-.card-info description
+.card1 card-info description
 {
     margin-top: 8px;
     margin-bottom: 5px;
 }
 
-.card-info star-rating
+.card1 card-info star-rating
 {
     margin-bottom: 10px;
 }
 
-.card-info star-rating solid
+.card1 card-info star-rating solid
 {
     color: #0065FC;
 
 }
 
-.card-info star-rating duotone
+.card1 card-info star-rating duotone
 {
     color: #F2F2F2;
 }
@@ -513,7 +513,41 @@ h5
     border-radius: 25px 0px 0px 25px;
 }
 
+.card2 card-info
+{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
+.card2 card-info card-title
+{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.card2 card-info description
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card2 card-info star-rating
+{
+    margin-top: 60px;
+}
+
+.card2 card-info star-rating solid
+{
+    color: #0065FC;
+
+}
+
+.card2 card-info star-rating duotone
+{
+    color: #F2F2F2;
+}
 
 
 
