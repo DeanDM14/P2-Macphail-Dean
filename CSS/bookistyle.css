@@ -245,7 +245,15 @@ h5
     border-radius: 32px;
 }
 
-
+.filters #filters button i
+{
+    padding: 19px;
+    margin-right: 20px;
+    margin-left: -2px;
+    color: #0065fc;
+    background-color: #DEEBFF;
+    border-radius: 38px;
+}
 
 
 
