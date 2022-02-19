@@ -255,7 +255,11 @@ h5
     border-radius: 38px;
 }
 
-
+.filters #filters button2:hover
+{
+    color: white;
+    background-color: #0065FC;
+}
 
 
 
