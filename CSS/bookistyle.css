@@ -726,6 +726,8 @@ h2
         
 .footcontainer
 {
+    width: 30%;
+    height: 60%;
     margin-top: 30px;
     margin-right: 250px;
     margin-left: 20px;
