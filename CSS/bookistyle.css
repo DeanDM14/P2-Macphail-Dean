@@ -27,7 +27,7 @@ body
 
 .header
 {
-    position: relative;
+    position: relative top;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
