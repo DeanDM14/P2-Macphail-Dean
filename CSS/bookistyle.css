@@ -709,7 +709,6 @@ h2
 .footer
 {
     position: relative bottom;
-    left: 0px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -722,8 +721,9 @@ h2
     padding-bottom: 30px;
     margin-top: 70px;
     background-color: #F2F2F2;
+    background-size: 100%;
 }
-        
+ 
 .footcontainer
 {
     width: 33%;
