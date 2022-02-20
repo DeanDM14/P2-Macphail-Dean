@@ -29,6 +29,7 @@ body
 .header
 {
     position: relative top;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -707,7 +708,7 @@ h2
 
 .footer
 {
-    position: absolute;
+    position: relative bottom;
     left: 0px;
     box-sizing: border-box;
     display: flex;
