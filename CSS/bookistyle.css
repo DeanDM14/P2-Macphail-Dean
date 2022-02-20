@@ -453,6 +453,7 @@ body
 
 .right
 {
+    position: relative right;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
