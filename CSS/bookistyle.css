@@ -67,6 +67,12 @@ body
 
 .nav-links dl
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: nowrap;
     width: 30%;
     height: 6%;
     padding-left: 48px;
