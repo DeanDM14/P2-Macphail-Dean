@@ -67,9 +67,9 @@ body
 
 .nav-links dl
 {
-    width: 15%;
+    width: 30%;
     height: 6%;
-    padding-left: 30px;
+    padding-left: 24px;
     font-size: 21px;
     text-decoration: none;
     list-style: none;
@@ -87,6 +87,13 @@ body
     padding-top: 65px;
     color: #0065fc;
     border-top: 4px solid #0065fc;
+}
+
+.nav-links dt
+{
+    width: 15%;
+    height: 6%;
+    padding-left: 48px;
 }
 
 
