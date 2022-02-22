@@ -34,7 +34,7 @@ body
     width: 90%;
     height: 5%;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 48px;
 }
 
 .logo
@@ -47,7 +47,7 @@ body
     height: 6%;
 }
 
-#bookilogo
+#booki-logo
 {
     width: 140px;
 }
@@ -56,47 +56,38 @@ body
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
-    align-content: flex-start;
+    align-content: space-between;
     flex-wrap: nowrap;
     width: 30%;
     height: 6%;
     padding-left: 0px;
 }
 
-.nav #acc
+.nav-links dl
 {
     width: 15%;
     height: 6%;
     padding-left: 30px;
     font-size: 21px;
     text-decoration: none;
+    list-style: none;
 }
 
-.nav #acc :hover
+.nav-links dl :hover
 {
     padding-top: 65px;
     color: #0065fc;
     border-top: 4px solid #0065fc;
 }
 
-.nav #acc :active
+.nav-links dl :active
 {
     padding-top: 65px;
     color: #0065fc;
     border-top: 4px solid #0065fc;
 }
-
-.nav #act
-{
-    width: 15%;
-    height: 6%;
-    padding-left: 30px;
-    font-size: 21px;
-    text-decoration: none;
-}
-
 
 
 .top 
