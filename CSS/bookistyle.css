@@ -105,6 +105,8 @@ body
 
 .top 
 {
+    position: relative top;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -118,6 +120,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
     width: 40%;
     height: 25%;
 }
@@ -144,22 +147,22 @@ body
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-content: center;
+    align-items: center;
     width: 40%;
     height: 25%;
     padding: 0px;
+    background-color: white;
     border-radius: 10px;
 }
 
 .i
 {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 14%;
     height: 100%;
-    padding: 25px;
+    padding: 24px;
     font-size: 21px;
     color: black;
     background-color: #F2F2F2;
@@ -181,7 +184,7 @@ body
     outline: none;
 }
 
-.form button
+.form button1
 {
     display: flex;
     justify-content: center;
@@ -195,6 +198,28 @@ body
     background-color: #0065fc;
     border-style: none;
     border-radius: 0 15px 15px 0;
+}
+
+.form incbutton
+{
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+    border-radius: o 15px 15px o;
+    visibility: hidden;
+}
+
+.form i
+{
+    width: auto;
+    margin-left: 0px;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    background-color: #0065FC;
+    border-style: none;
+    border-radius: 0 15px 15px 0;
+
 }
 
 .filters
