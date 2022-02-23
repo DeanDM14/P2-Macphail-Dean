@@ -449,13 +449,13 @@ body
     margin-bottom: 10px;
 }
 
-.solid
+.checked
 {
     color: #0065FC;
 
 }
 
-.duotone
+.unchecked
 {
     color: #d6d1d1;
 }
