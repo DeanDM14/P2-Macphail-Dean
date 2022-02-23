@@ -460,6 +460,11 @@ body
     color: #d6d1d1;
 }
 
+.card1:hover
+{
+    box-shadow: #d6d1d1;
+}
+
 .show
 {
     display: flex;
@@ -477,7 +482,6 @@ body
     font-size: 21px;
     font-weight: 500;
 }
-
 
 
 .right
@@ -503,7 +507,7 @@ body
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
-    width: 50%;
+    width: 100%;
     height: 10%;
     margin-left: 60px;
     font-size: 28px;
@@ -531,7 +535,6 @@ body
     flex-wrap: nowrap;
     width: 75%;
     height: 25%;
-    margin: 20px;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 5px 10px #d6d1d1;
@@ -555,7 +558,8 @@ body
 
 .card-info
 {
-    padding: 0px;
+    width: 50%;
+    height: 100%;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -589,6 +593,10 @@ body
     color: #F2F2F2;
 }
 
+.card2:hover
+{
+    box-shadow: #d6d1d1;
+}
 
 
 .bottom
