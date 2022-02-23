@@ -344,10 +344,9 @@ body
 }
 
 
-
 .middle
 {
-    position: static;
+    position: static middle;
     box-sizing: content-box;
     display: flex;
     flex-direction: row;
