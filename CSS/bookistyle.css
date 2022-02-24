@@ -582,13 +582,13 @@ body
     margin-top: 60px;
 }
 
-.solid
+.checked
 {
     color: #0065FC;
 
 }
 
-.duotone
+.unchecked
 {
     color: #F2F2F2;
 }
