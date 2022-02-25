@@ -42,7 +42,7 @@ body
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 120px;
     height: 60px;
@@ -81,7 +81,7 @@ body
     border-top: 4px solid #0065fc;
 }
 
-.nav-links li #acc
+.nav-links li
 {
     display: flex;
     flex-direction: row;
@@ -89,6 +89,11 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
+    list-style: none;
+}
+
+.nav-links li #acc
+{
     width: 120px;
     height: 24px;
     padding-left: 48px;
@@ -99,12 +104,6 @@ body
 
 .nav-links li #act
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: space-between;
-    flex-wrap: nowrap;
     width: 72px;
     height: 24px;
     padding-left: 48px;
