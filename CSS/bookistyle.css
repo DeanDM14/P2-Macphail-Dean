@@ -32,8 +32,8 @@ body
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    width: 888px;
-    height: 72px;
+    width: 1152px;
+    height: 96px;
     padding-top: 0px;
     margin-top: 6px;
 }
@@ -44,14 +44,14 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 30px;
+    width: 96px;
+    height: 48px;
 }
 
 #booki-logo
 {
-    width: 50px;
-    height: 25px;
+    width: 72px;
+    height: 36px;
 }
 
 .nav-links
@@ -62,8 +62,8 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 192px;
-    height: 48px;
+    width: 288px;
+    height: 72px;
     padding-left: 0px;
 }
 
@@ -89,8 +89,8 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 100px;
-    height: 20px;
+    width: 120px;
+    height: 24px;
     padding-left: 48px;
     font-size: 21px;
     text-decoration: none;
@@ -105,8 +105,8 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 50px;
-    height: 20px;
+    width: 72px;
+    height: 24px;
     padding-left: 48px;
     font-size: 21px;
     text-decoration: none;
