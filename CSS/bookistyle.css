@@ -1,8 +1,8 @@
 body
 {
     width: auto;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-family:'Raleway', sans-serif;
     font-size: 21px;
     color: black; 
@@ -30,12 +30,12 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
-    width: 90%;
-    height: 5%;
+    width: 888px;
+    height: 72px;
     padding-top: 0px;
-    margin-top: 48px;
+    margin-top: 6px;
 }
 
 .logo
@@ -44,13 +44,14 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 10%;
-    height: 6%;
+    width: 60px;
+    height: 30px;
 }
 
 #booki-logo
 {
-    width: 140px;
+    width: 50px;
+    height: 25px;
 }
 
 .nav-links
@@ -61,12 +62,26 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 30%;
-    height: 6%;
+    width: 192px;
+    height: 48px;
     padding-left: 0px;
 }
 
-.nav-links dl
+.nav-links ul:hover
+{
+    padding-top: 65px;
+    color: #0065fc;
+    border-top: 4px solid #0065fc;
+}
+
+.nav-links ul:active
+{
+    padding-top: 65px;
+    color: #0065fc;
+    border-top: 4px solid #0065fc;
+}
+
+.nav-links li #acc
 {
     display: flex;
     flex-direction: row;
@@ -74,33 +89,28 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 30%;
-    height: 6%;
+    width: 100px;
+    height: 20px;
     padding-left: 48px;
     font-size: 21px;
     text-decoration: none;
     list-style: none;
 }
 
-.nav-links dl:hover
+.nav-links li #act
 {
-    padding-top: 65px;
-    color: #0065fc;
-    border-top: 4px solid #0065fc;
-}
-
-.nav-links dl:active
-{
-    padding-top: 65px;
-    color: #0065fc;
-    border-top: 4px solid #0065fc;
-}
-
-.nav-links dt
-{
-    width: 15%;
-    height: 6%;
-    padding-left: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    width: 50px;
+    height: 20px;
+    padding-left: 48px;
+    font-size: 21px;
+    text-decoration: none;
+    list-style: none;
 }
 
 
