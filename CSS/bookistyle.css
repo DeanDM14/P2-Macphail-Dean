@@ -122,8 +122,8 @@ body
     flex-direction: column;
     justify-content: flex-start;
     align-content: space-around;
-    width: 90%;
-    height: 15%;
+    width: 1152px;
+    height: 288px;
 }
 
 .topheading
@@ -132,24 +132,28 @@ body
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width: 40%;
-    height: 25%;
+    width: 336px;
+    height: 48px;
 }
 
 .h3
 {
+    width: 336px;
+    height: 24px;
     padding-top: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
 }
 
 .h5
 {
+    width: 144px;
+    height: 18px;
     padding: 0px;
     margin-top: 10px;
-    font-size: 21px;    
+    font-size: 18px;    
     font-weight: 400;
 }
 
@@ -159,8 +163,8 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 40%;
-    height: 25%;
+    width: 336px;
+    height: 48px;
     padding: 0px;
     background-color: white;
     border-radius: 10px;
@@ -171,8 +175,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14%;
-    height: 100%;
+    width: 42px;
+    height: 48px;
     padding: 24px;
     font-size: 21px;
     color: black;
@@ -184,8 +188,8 @@ body
 {
     display: flex;
     justify-content: center;
-    width: 56%;
-    height: 100%;
+    width: 192px;
+    height: 48px;
     padding-left: 10px;
     margin: 0px;
     margin-right: -4px;
@@ -199,8 +203,8 @@ body
 {
     display: flex;
     justify-content: center;
-    width: 30%;
-    height: 100%;
+    width: 84px;
+    height: 48px;
     padding: 21px;
     margin-left: 0px;
     font-size: 21px;
@@ -241,8 +245,8 @@ body
     align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 70%;
-    height: 25%;
+    width: 768px;
+    height: 48px;
     margin-top: 50px;
     margin-bottom: 0px;
 }
@@ -253,8 +257,8 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 20%;
-    height: 80%;
+    width: 48px;
+    height: 48px;
     padding-bottom: 0px;
     margin-right: 25px;
     margin-bottom: 0px;
@@ -271,8 +275,8 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 80%;
-    height: 80%;
+    width: 672px;
+    height: 48px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -284,8 +288,48 @@ body
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    width: 20%;
-    height: 80%;
+    width: 144px;
+    height: 48px;
+    padding: 18px;
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 32px;
+}
+
+.button3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 180px;
+    height: 48px;
+    padding: 18px;
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 32px;
+}
+
+.button4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 168;
+    height: 48px;
     padding: 18px;
     padding-left: 0px;
     margin-top: 20px;
@@ -313,14 +357,26 @@ body
     background-color: #0065FC;
 }
 
+.button3:hover
+{
+    color: white;
+    background-color: #0065FC;
+}
+
+.button4:hover
+{
+    color: white;
+    background-color: #0065FC;
+}
+
 .info
 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
-    width: 35%;
-    height: 25%;
+    width: 360px;
+    height: 36px;
     margin-top: 40px;
 }
 
@@ -329,8 +385,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
-    height: 100%;
+    width: 24px;
+    height: 24px;
     padding-top: 5px;
     padding-right: 10px;
     padding-bottom: 5px;
@@ -348,8 +404,8 @@ body
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 90%;
-    height: 100%;
+    width: 330px;
+    height: 24px;
     margin-left: 14px;
     font-size: 21px;
 }
