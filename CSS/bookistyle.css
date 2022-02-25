@@ -942,8 +942,8 @@ h2
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 100%;
-    height: 10%;
+    width: 1200px;
+    height: 192px;
     padding-bottom: 30px;
     margin-top: 70px;
     background-color: #F2F2F2;
@@ -952,18 +952,34 @@ h2
  
 .footcontainer
 {
-    width: 33%;
-    height: 60%;
+    width: 384px;
+    height: 144px;
     margin-top: 30px;
     margin-right: 48px;
     margin-left: 24px;
 }
 
-.foothead
+.foothead1
 {
+    width: 192px;
+    height: 120px;
     list-style: none;
 }
-    
+
+.foothead2
+{
+    width: 168px;
+    height: 96px;
+    list-style: none;
+}
+
+.foothead3
+{
+    width: 96px;
+    height: 96px;
+    list-style: none;
+}
+
 .foothead a
 {
     flex-wrap: nowrap;
