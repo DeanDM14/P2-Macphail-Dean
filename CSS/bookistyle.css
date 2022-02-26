@@ -44,20 +44,20 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 120px;
-    height: 60px;
+    width: 72px;
+    height: 36px;
 }
 
 .nav-links
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
     width: 384px;
-    height: 72px;
+    height: 48px;
     padding-left: 0px;
 }
 
@@ -156,7 +156,7 @@ body
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 384px;
     height: 72px;
@@ -174,7 +174,7 @@ body
     width: 48px;
     height: 48px;
     padding: 24px;
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
@@ -185,7 +185,7 @@ input
     display: flex;
     justify-content: center;
     width: 192px;
-    height: 72px;
+    height: 48px;
     padding-left: 10px;
     margin: 0px;
     margin-right: -4px;
@@ -200,7 +200,7 @@ input
     display: flex;
     justify-content: center;
     width: 84px;
-    height: 72px;
+    height: 48px;
     padding: 21px;
     margin-left: 0px;
     font-size: 20px;
@@ -223,7 +223,7 @@ input
 .fa-magnifying-glass
 {
     width: 24px;
-    height: 24;
+    height: 24px;
     margin-left: 0px;
     font-size: 20px;
     color: white;
@@ -231,6 +231,7 @@ input
     background-color: #0065FC;
     border-style: none;
     border-radius: 0 15px 15px 0;
+    visibility: hidden;
 
 }
 
@@ -268,9 +269,9 @@ p
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
-    align-content: space-between;
+    align-content: space-around;
     flex-wrap: nowrap;
     width: 768px;
     height: 72px;
@@ -320,6 +321,8 @@ p
 
 .fa-money-bill-wave
 {
+    width: 48px;
+    height: 48px;
     padding: 19px;
     margin-right: 20px;
     margin-left: -2px;
@@ -329,7 +332,8 @@ p
 }
 
 .fa-child
-{
+{   width: 48px;
+    height: 48px;
     padding: 19px;
     margin-right: 20px;
     margin-left: -2px;
@@ -339,7 +343,8 @@ p
 }
 
 .fa-heart
-{
+{   width: 48px;
+    height: 48px;
     padding: 19px;
     margin-right: 20px;
     margin-left: -2px;
@@ -350,6 +355,8 @@ p
 
 .fa-dog
 {
+    width: 48px;
+    height: 48px;
     padding: 19px;
     margin-right: 20px;
     margin-left: -2px;
@@ -357,7 +364,6 @@ p
     background-color: #DEEBFF;
     border-radius: 38px;
 }
-
 
 .button2:hover
 {
@@ -377,6 +383,8 @@ p
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    align-content: space-between;
+    flex-wrap: nowrap;
     width: 384px;
     height: 48px;
     margin-top: 40px;
@@ -387,8 +395,8 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
+    width: 24px;
+    height: 24px;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -404,11 +412,11 @@ p
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 336px;
-    height: 48px;
+    height: 24px;
     margin-left: 18px;
     font-size: 16px;
 }
