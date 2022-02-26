@@ -62,23 +62,9 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 288px;
+    width: 384px;
     height: 72px;
     padding-left: 0px;
-}
-
-.nav-links ul:hover
-{
-    padding-top: 65px;
-    color: #0065fc;
-    border-top: 4px solid #0065fc;
-}
-
-.nav-links ul:active
-{
-    padding-top: 65px;
-    color: #0065fc;
-    border-top: 4px solid #0065fc;
 }
 
 .nav-links li
@@ -96,6 +82,7 @@ body
 {
     width: 120px;
     height: 24px;
+    padding-right: 48px;
     padding-left: 48px;
     font-size: 21px;
     text-decoration: none;
@@ -112,6 +99,19 @@ body
     list-style: none;
 }
 
+.nav-links li:hover
+{
+    padding-top: 65px;
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+}
+
+.nav-links li:active
+{
+    padding-top: 65px;
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+}
 
 .top 
 {
@@ -133,7 +133,7 @@ body
     justify-content: flex-start;
     flex-wrap: nowrap;
     width: 336px;
-    height: 48px;
+    height: 72px;
 }
 
 .h3
@@ -143,7 +143,7 @@ body
     padding-top: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -153,7 +153,7 @@ body
     height: 18px;
     padding: 0px;
     margin-top: 10px;
-    font-size: 18px;    
+    font-size: 21px;    
     font-weight: 400;
 }
 
@@ -164,7 +164,7 @@ body
     justify-content: flex-start;
     align-items: center;
     width: 336px;
-    height: 48px;
+    height: 72px;
     padding: 0px;
     background-color: white;
     border-radius: 10px;
@@ -172,6 +172,7 @@ body
 
 .i
 {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +190,7 @@ body
     display: flex;
     justify-content: center;
     width: 192px;
-    height: 48px;
+    height: 72px;
     padding-left: 10px;
     margin: 0px;
     margin-right: -4px;
@@ -199,23 +200,23 @@ body
     outline: none;
 }
 
-.form button1
+.form .button1
 {
     display: flex;
     justify-content: center;
     width: 84px;
-    height: 48px;
+    height: 72px;
     padding: 21px;
     margin-left: 0px;
     font-size: 21px;
     color: white;
     text-align: center;
-    background-color: #0065fc;
+    background-color: #0065FC;
     border-style: none;
     border-radius: 0 15px 15px 0;
 }
 
-.form incbutton
+.form .incbutton
 {
     padding: 0px;
     margin: 0px;
@@ -224,9 +225,9 @@ body
     visibility: hidden;
 }
 
-.form i
+.form .fa-magnifying-glass
 {
-    width: auto;
+    width: 42px;
     margin-left: 0px;
     font-size: 21px;
     color: white;
@@ -246,18 +247,18 @@ body
     align-content: space-between;
     flex-wrap: nowrap;
     width: 768px;
-    height: 48px;
-    margin-top: 50px;
+    height: 72px;
+    margin-top: 48px;
     margin-bottom: 0px;
 }
 
-#preview
+p
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 48px;
+    width: 72px;
     height: 48px;
     padding-bottom: 0px;
     margin-right: 25px;
@@ -267,7 +268,7 @@ body
     font-weight: 600;
 }
 
-#filters 
+.buttons
 {
     display: flex;
     flex-direction: row;
@@ -276,7 +277,7 @@ body
     align-content: space-between;
     flex-wrap: nowrap;
     width: 672px;
-    height: 48px;
+    height: 72px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -308,7 +309,7 @@ body
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    width: 180px;
+    width: 192px;
     height: 48px;
     padding: 18px;
     padding-left: 0px;
@@ -375,12 +376,12 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
-    width: 360px;
-    height: 36px;
+    width: 384px;
+    height: 48px;
     margin-top: 40px;
 }
 
-.i
+.fa-info
 {
     display: flex;
     justify-content: center;
@@ -406,7 +407,7 @@ body
     flex-wrap: wrap;
     width: 330px;
     height: 24px;
-    margin-left: 14px;
+    margin-left: 18px;
     font-size: 21px;
 }
 
