@@ -65,7 +65,7 @@ body
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
@@ -127,28 +127,28 @@ body
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width: 336px;
+    width: 384px;
     height: 72px;
 }
 
 .h3
 {
-    width: 336px;
+    width: 384px;
     height: 24px;
     padding-top: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .h5
 {
-    width: 144px;
+    width: 192px;
     height: 18px;
     padding: 0px;
     margin-top: 10px;
-    font-size: 21px;    
+    font-size: 16px;    
     font-weight: 400;
 }
 
@@ -158,29 +158,29 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 336px;
+    width: 384px;
     height: 72px;
     padding: 0px;
     background-color: white;
     border-radius: 10px;
 }
 
-.i
+.fa-location-dot
 {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 42px;
+    width: 48px;
     height: 48px;
     padding: 24px;
-    font-size: 21px;
+    font-size: 20px;
     color: black;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
 }
 
-.form input
+input
 {
     display: flex;
     justify-content: center;
@@ -189,13 +189,13 @@ body
     padding-left: 10px;
     margin: 0px;
     margin-right: -4px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     border: 1px solid #F2F2F2;
     outline: none;
 }
 
-.form .button1
+.button1
 {
     display: flex;
     justify-content: center;
@@ -203,7 +203,7 @@ body
     height: 72px;
     padding: 21px;
     margin-left: 0px;
-    font-size: 21px;
+    font-size: 20px;
     color: white;
     text-align: center;
     background-color: #0065FC;
@@ -211,7 +211,7 @@ body
     border-radius: 0 15px 15px 0;
 }
 
-.form .incbutton
+.incbutton
 {
     padding: 0px;
     margin: 0px;
@@ -220,11 +220,12 @@ body
     visibility: hidden;
 }
 
-.form .fa-magnifying-glass
+.fa-magnifying-glass
 {
-    width: 42px;
+    width: 24px;
+    height: 24;
     margin-left: 0px;
-    font-size: 21px;
+    font-size: 20px;
     color: white;
     text-align: center;
     background-color: #0065FC;
@@ -241,7 +242,7 @@ body
     align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 768px;
+    width: 864px;
     height: 72px;
     margin-top: 48px;
     margin-bottom: 0px;
@@ -259,7 +260,7 @@ p
     margin-right: 25px;
     margin-bottom: 0px;
     margin-left: 0px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -271,7 +272,7 @@ p
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 672px;
+    width: 768px;
     height: 72px;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -290,7 +291,7 @@ p
     padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -310,34 +311,14 @@ p
     padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     background-color: white;
     border: 2px solid #F2F2F2;
     border-radius: 32px;
 }
 
-.button4
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 168px;
-    height: 48px;
-    padding: 18px;
-    padding-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size: 21px;
-    font-weight: 600;
-    background-color: white;
-    border: 2px solid #F2F2F2;
-    border-radius: 32px;
-}
-
-.i
+.fa-money-bill-wave
 {
     padding: 19px;
     margin-right: 20px;
@@ -346,6 +327,37 @@ p
     background-color: #DEEBFF;
     border-radius: 38px;
 }
+
+.fa-child
+{
+    padding: 19px;
+    margin-right: 20px;
+    margin-left: -2px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 38px;
+}
+
+.fa-heart
+{
+    padding: 19px;
+    margin-right: 20px;
+    margin-left: -2px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 38px;
+}
+
+.fa-dog
+{
+    padding: 19px;
+    margin-right: 20px;
+    margin-left: -2px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 38px;
+}
+
 
 .button2:hover
 {
@@ -359,17 +371,11 @@ p
     background-color: #0065FC;
 }
 
-.button4:hover
-{
-    color: white;
-    background-color: #0065FC;
-}
-
 .info
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: baseline;
     width: 384px;
     height: 48px;
@@ -381,13 +387,13 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 900;
     color: #0065FC;
     border: 1px solid #F2F2F2;
@@ -398,12 +404,13 @@ p
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     flex-wrap: wrap;
-    width: 330px;
-    height: 24px;
+    width: 336px;
+    height: 48px;
     margin-left: 18px;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 
