@@ -24,8 +24,7 @@ body
 
 .header
 {
-    position: relative;
-    top: 0px;
+    position: static;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -34,8 +33,8 @@ body
     flex-wrap: nowrap;
     width: 1152px;
     height: 96px;
-    padding-top: 0px;
-    margin-top: 6px;
+    padding: 0px;
+    margin: auto;
 }
 
 .logo
@@ -46,6 +45,8 @@ body
     align-items: center;
     width: 72px;
     height: 36px;
+    padding: 0px;
+    margin: auto;
 }
 
 .nav-links
@@ -58,7 +59,8 @@ body
     flex-wrap: nowrap;
     width: 384px;
     height: 48px;
-    padding-left: 0px;
+    padding: 0px;
+    margin: auto;
 }
 
 .nav-links li
@@ -70,14 +72,16 @@ body
     align-content: space-between;
     flex-wrap: nowrap;
     list-style: none;
+    padding: 0px;
+    margin: auto;
 }
 
 .nav-links li #acc
 {
     width: 120px;
     height: 24px;
-    padding-right: 48px;
-    padding-left: 48px;
+    padding: 0px;
+    margin: auto;
     font-size: 16px;
     text-decoration: none;
     list-style: none;
@@ -87,8 +91,8 @@ body
 {
     width: 72px;
     height: 24px;
-    padding-right: 48px;
-    padding-left: 96px;
+    padding: 0px;
+    margin: auto;
     font-size: 16px;
     text-decoration: none;
     list-style: none;
@@ -96,22 +100,23 @@ body
 
 .nav-links li:hover
 {
-    padding-top: 65px;
+    padding: 0px;
+    margin: auto;
     color: #0065FC;
     border-top: 4px solid #0065FC;
 }
 
 .nav-links li:active
 {
-    padding-top: 65px;
+    padding: 0px;
+    margin: auto;
     color: #0065FC;
     border-top: 4px solid #0065FC;
 }
 
 .top 
 {
-    position: relative;
-    top: 80px;
+    position: static;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -119,6 +124,8 @@ body
     align-content: space-around;
     width: 1152px;
     height: 288px;
+    padding: 0px;
+    margin: auto;
 }
 
 .topheading
@@ -129,15 +136,16 @@ body
     flex-wrap: nowrap;
     width: 384px;
     height: 72px;
+    padding: 0px;
+    margin: auto;
 }
 
 .h3
 {
     width: 384px;
     height: 24px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 500;
 }
@@ -147,7 +155,7 @@ body
     width: 192px;
     height: 18px;
     padding: 0px;
-    margin-top: 10px;
+    margin: auto;
     font-size: 16px;    
     font-weight: 400;
 }
@@ -161,19 +169,21 @@ body
     width: 384px;
     height: 72px;
     padding: 0px;
+    margin: auto;
     background-color: white;
     border-radius: 10px;
 }
 
 .fa-location-dot
 {
-    position: relative;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 48px;
     height: 48px;
-    padding: 24px;
+    padding: 0px;
+    margin: auto;
     font-size: 24px;
     color: black;
     background-color: #F2F2F2;
@@ -186,9 +196,8 @@ input
     justify-content: center;
     width: 192px;
     height: 48px;
-    padding-left: 10px;
-    margin: 0px;
-    margin-right: -4px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
     border: 1px solid #F2F2F2;
@@ -201,8 +210,8 @@ input
     justify-content: center;
     width: 84px;
     height: 48px;
-    padding: 21px;
-    margin-left: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -214,7 +223,7 @@ input
 .incbutton
 {
     padding: 0px;
-    margin: 0px;
+    margin: auto;
     border-style: none;
     border-radius: 0 15px 15px 0;
     visibility: hidden;
@@ -224,7 +233,8 @@ input
 {
     width: 24px;
     height: 24px;
-    margin-left: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -245,8 +255,8 @@ input
     flex-wrap: nowrap;
     width: 864px;
     height: 72px;
-    margin-top: 48px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
 }
 
 p
@@ -257,10 +267,8 @@ p
     align-items: center;
     width: 72px;
     height: 48px;
-    padding-bottom: 0px;
-    margin-right: 25px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -275,8 +283,8 @@ p
     flex-wrap: nowrap;
     width: 768px;
     height: 72px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
 }
 
 .button2
@@ -288,10 +296,8 @@ p
     flex-wrap: nowrap;
     width: 144px;
     height: 48px;
-    padding: 18px;
-    padding-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
     background-color: white;
@@ -308,10 +314,8 @@ p
     flex-wrap: nowrap;
     width: 192px;
     height: 48px;
-    padding: 18px;
-    padding-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
     background-color: white;
@@ -323,9 +327,8 @@ p
 {
     width: 48px;
     height: 48px;
-    padding: 19px;
-    margin-right: 20px;
-    margin-left: -2px;
+    padding: 0px;
+    margin: auto;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 38px;
@@ -334,9 +337,8 @@ p
 .fa-child
 {   width: 48px;
     height: 48px;
-    padding: 19px;
-    margin-right: 20px;
-    margin-left: -2px;
+    padding: 0px;
+    margin: auto;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 38px;
@@ -345,9 +347,8 @@ p
 .fa-heart
 {   width: 48px;
     height: 48px;
-    padding: 19px;
-    margin-right: 20px;
-    margin-left: -2px;
+    padding: 0px;
+    margin: auto;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 38px;
@@ -357,9 +358,8 @@ p
 {
     width: 48px;
     height: 48px;
-    padding: 19px;
-    margin-right: 20px;
-    margin-left: -2px;
+    padding: 0px;
+    margin: auto;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 38px;
@@ -369,12 +369,16 @@ p
 {
     color: white;
     background-color: #0065FC;
+    padding: 0px;
+    margin: auto;
 }
 
 .button3:hover
 {
     color: white;
     background-color: #0065FC;
+    padding: 0px;
+    margin: auto;
 }
 
 .info
@@ -387,7 +391,8 @@ p
     flex-wrap: nowrap;
     width: 384px;
     height: 48px;
-    margin-top: 40px;
+    padding: 0px;
+    margin: auto;
 }
 
 .fa-info
@@ -397,10 +402,8 @@ p
     align-items: center;
     width: 24px;
     height: 24px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 900;
     color: #0065FC;
@@ -417,15 +420,15 @@ p
     flex-wrap: wrap;
     width: 336px;
     height: 24px;
-    margin-left: 18px;
+    padding: 0px;
+    margin: auto;
     font-size: 16px;
 }
 
 
 .middle
 {
-    position: relative;
-    top: 288px;
+    position: static;
     box-sizing: content-box;
     display: flex;
     flex-direction: row;
@@ -434,13 +437,14 @@ p
     flex-wrap: nowrap;
     width: 1152px;
     height: 552px;
+    padding: 0px;
+    margin: auto;
 }
 
 
 .left
 {
-    position: relative;
-    left: 36px;
+    position: static;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -449,8 +453,8 @@ p
     flex-wrap: wrap;
     width: 720px;
     height: 528px;
-    padding-top: 30px;
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: auto;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
@@ -463,10 +467,8 @@ p
     flex-wrap: nowrap;
     width: 264px;
     height: 24px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 60px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 500;
 }
@@ -481,7 +483,8 @@ p
     flex-wrap: nowrap;
     width: 216px;
     height: 168px;
-    margin: 20px;
+    padding: 0px;
+    margin: auto;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 5px 10px #d6d1d1;
@@ -491,7 +494,8 @@ p
 {
     width: 192px;
     height: 96px;
-    padding: 7px;
+    padding: 0px;
+    margin: auto;
     overflow: hidden;
     border-radius: 25px 25px 0px 0px;
 }
@@ -501,16 +505,15 @@ p
     width: 192px;
     height: 72px;
     padding: 0px;
-    margin-top: 0px;
-    margin-left: 25px;
+    margin: auto;
 }
 
 .card-title
 {
     width: 168px;
     height: 18px;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 16px;
 }
 
@@ -518,8 +521,8 @@ p
 {
     width: 144px;
     height: 18px;
-    margin-top: 8px;
-    margin-bottom: 5px;
+    padding: 0px;
+    margin: auto;
     font-size: 14px;
 }
 
@@ -527,7 +530,8 @@ p
 {
     width: 60px;
     height: 18px;
-    margin-bottom: 10px;
+    padding: 0px;
+    margin: auto;
 }
 
 .checked
@@ -544,6 +548,8 @@ p
 .card1:hover
 {
     box-shadow: 0.5px 1px #d6d1d1;
+    padding: 0px;
+    margin: auto;
 }
 
 .show
@@ -554,21 +560,22 @@ p
     align-items: flex-end;
     width: 96px;
     height: 36px;
-    margin-bottom: 60px;
-    margin-left: 65px;
+    padding: 0px;
+    margin: auto;
 }
 
 .show a
 {
     font-size: 20px;
     font-weight: 500;
+    padding: 0px;
+    margin: auto;
 }
 
 
 .right
 {
-    position: relative;
-    right: 36px;
+    position: static;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -577,7 +584,7 @@ p
     width: 360px;
     height: 528px;
     padding: 0px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
@@ -591,7 +598,8 @@ p
     flex-wrap: nowrap;
     width: 264px;
     height: 24px;
-    margin-left: 60px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 500;
 }
@@ -605,7 +613,8 @@ p
     flex-wrap: nowrap;
     width: 24px;
     height: 24px;
-    padding-right: 60px;
+    padding: 0px;
+    margin: auto;
 }
 
 .card2
@@ -617,6 +626,8 @@ p
     flex-wrap: nowrap;
     width: 288px;
     height: 120px;
+    padding: 0px;
+    margin: auto;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 5px 10px #d6d1d1;
@@ -626,7 +637,8 @@ p
 {
     width: 102px;
     height: 120px;
-    padding: 7px;
+    padding: 0px;
+    margin: auto;
     overflow: hidden;
     border-radius: 25px 0px 0px 25px;
 }
@@ -635,16 +647,16 @@ p
 {
     width: 192px;
     height: 120px;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 0px;
+    margin: auto;
 }
 
 .card-title
 {
     width: 168px;
     height: 18px;
-    margin-top: 3px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: auto;
     font-size: 16px;
 }
 
@@ -652,15 +664,16 @@ p
 {
     width: 144px;
     height: 18px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    padding: 0px;
+    margin: auto;
 }
 
 .star-rating
 {
     width: 60px;
     height: 18px;
-    margin-top: 60px;
+    padding: 0px;
+    margin: auto;
 }
 
 .checked
@@ -677,13 +690,14 @@ p
 .card2:hover
 {
     box-shadow: 0.5px 1px #d6d1d1;
+    padding: 0px;
+    margin: auto;
 }
 
 
 .bottom
 {
-    position: relative;
-    bottom: 190px;
+    position: static;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -693,8 +707,9 @@ p
     flex-wrap: wrap;
     width: 1152px;
     height: 432px;
-    margin-top: 30px;
-    }
+    padding: 0px;
+    margin: auto;
+}
 
 .activ
 {
@@ -705,8 +720,8 @@ p
     flex-wrap: nowrap;
     width: 196px;
     height: 24px;
-    margin-top: 50px;
-    margin-left: 60px;
+    padding: 0px;
+    margin: auto;
     font-size: 28px;
     font-weight: 500;
 }
@@ -718,7 +733,8 @@ p
     justify-content: space-between;
     width: 264px;
     height: 384px;
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
@@ -727,7 +743,8 @@ p
 {
     width: 252px;
     height: 336px;
-    padding: 7px;
+    padding: 0px;
+    margin: auto;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -737,8 +754,7 @@ p
     width: 264px;
     height: 48px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -748,8 +764,7 @@ p
     width: 168px;
     height: 24px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 16px;
     font-weight: 600;
 }
@@ -757,6 +772,8 @@ p
 .card3:hover
 {
     box-shadow: 0 0.5px 1px #d6d1d1;
+    padding: 0px;
+    margin: auto;
 }
 
 .margin1
@@ -765,6 +782,8 @@ p
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0px;
+    margin: auto;
 }
 
 .card4
@@ -774,7 +793,8 @@ p
     justify-content: space-between;
     width: 264px;
     height: 192px;
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
@@ -783,7 +803,8 @@ p
 {
     width: 252px;
     height: 144px;
-    padding: 7px;
+    padding: 0px;
+    margin: auto;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -793,8 +814,7 @@ p
     width: 264px;
     height: 48px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -804,8 +824,7 @@ p
     width: 96px;
     height: 24px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 16px;
     font-weight: 600;
 }
@@ -813,6 +832,8 @@ p
 .card4:hover
 {
     box-shadow: 0 0.5px 1px #d6d1d1;
+    padding: 0px;
+    margin: auto;
 }
 
 .card6
@@ -822,7 +843,8 @@ p
     justify-content: space-between;
     width: 264px;
     height: 144px;
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
@@ -831,7 +853,8 @@ p
 {
     width: 252px;
     height: 96px;
-    padding: 7px;
+    padding: 0px;
+    margin: auto;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -841,8 +864,7 @@ p
     width: 264px;
     height: 48px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -852,8 +874,7 @@ p
     width: 84px;
     height: 24px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 16px;
     font-weight: 600;
 }
@@ -861,6 +882,8 @@ p
 .card6:hover
 {
     box-shadow: 0 0.5px 1px #d6d1d1;
+    padding: 0px;
+    margin: auto;
 }
 
 .margin2
@@ -869,6 +892,8 @@ p
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0px;
+    margin: auto;
 }
 
 .card5
@@ -878,7 +903,8 @@ p
     justify-content: space-between;
     width: 264px;
     height: 168px;
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
@@ -887,7 +913,8 @@ p
 {
     width: 252px;
     height: 120px;
-    padding: 7px;
+    padding: 0px;
+    margin: auto;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -897,8 +924,7 @@ p
     width: 264px;
     height: 48px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -908,8 +934,7 @@ p
     width: 168px;
     height: 24px;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     font-size: 16px;
     font-weight: 600;
 }
@@ -917,13 +942,14 @@ p
 .card5:hover
 {
     box-shadow: 0 0.5px 1px #d6d1d1;
+    padding: 0px;
+    margin: auto;
 }
 
 
 .footer
 {
-    position: relative;
-    bottom: 0px;
+    position: static;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -933,8 +959,8 @@ p
     flex-wrap: nowrap;
     width: 1200px;
     height: 192px;
-    padding-bottom: 30px;
-    margin-top: 70px;
+    padding: 0px;
+    margin: auto;
     background-color: #F2F2F2;
     background-size: 1200px;
 }
@@ -943,15 +969,16 @@ p
 {
     width: 384px;
     height: 144px;
-    margin-top: 30px;
-    margin-right: 48px;
-    margin-left: 24px;
+    padding: 0px;
+    margin: auto;
 }
 
 .foothead1
 {
     width: 192px;
     height: 120px;
+    padding: 0px;
+    margin: auto;
     list-style: none;
 }
 
@@ -959,6 +986,8 @@ p
 {
     width: 168px;
     height: 96px;
+    padding: 0px;
+    margin: auto;
     list-style: none;
 }
 
@@ -966,13 +995,16 @@ p
 {
     width: 96px;
     height: 96px;
+    padding: 0px;
+    margin: auto;
     list-style: none;
 }
 
 .foothead1 a
 {
     flex-wrap: nowrap;
-    margin-top: 20px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -981,7 +1013,8 @@ p
 .foothead2 a
 {
     flex-wrap: nowrap;
-    margin-top: 20px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -990,7 +1023,8 @@ p
 .foothead3 a
 {
     flex-wrap: nowrap;
-    margin-top: 20px;
+    padding: 0px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -998,14 +1032,16 @@ p
 
 .footsub
 {
-    padding-bottom: 20px;
+    padding: 0px;
+    margin: auto;
     list-style: none;
 }    
 
 .footsub a
 {
     flex-wrap: nowrap;
-    margin-top: 10px;
+    padding: 0px;
+    margin: auto;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
