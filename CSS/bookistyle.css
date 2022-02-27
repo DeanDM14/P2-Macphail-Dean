@@ -696,7 +696,7 @@ p
     margin-top: 30px;
     }
 
-h2
+.activ
 {
     display: flex;
     flex-direction: row;
@@ -732,13 +732,6 @@ h2
     border-radius: 20px 20px 0px 0px;
 }
 
-.img
-{
-    width: 252px;
-    height: 336px;
-    border-radius: 20px 20px 0px 0px;
-}
-
 .card-info
 {
     width: 264px;
@@ -746,7 +739,7 @@ h2
     padding: 0px;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -754,6 +747,11 @@ h2
 {
     width: 168px;
     height: 24px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .card3:hover
@@ -790,13 +788,6 @@ h2
     border-radius: 20px 20px 0px 0px;
 }
 
-.img
-{
-    width: 252px;
-    height: 144px;
-    border-radius: 20px 20px 0px 0px;
-}
-
 .card-info
 {
     width: 264px;
@@ -804,7 +795,7 @@ h2
     padding: 0px;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -812,6 +803,11 @@ h2
 {
     width: 96px;
     height: 24px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .card4:hover
@@ -840,13 +836,6 @@ h2
     border-radius: 20px 20px 0px 0px;
 }
 
-.img
-{
-    width: 252px;
-    height: 96px;
-    border-radius: 20px 20px 0px 0px;
-}
-
 .card-info
 {
     width: 264px;
@@ -854,7 +843,7 @@ h2
     padding: 0px;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -862,6 +851,11 @@ h2
 {
     width: 84px;
     height: 24px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .card6:hover
@@ -898,13 +892,6 @@ h2
     border-radius: 20px 20px 0px 0px;
 }
 
-.img
-{
-    width: 252px;
-    height: 120px;
-    border-radius: 20px 20px 0px 0px;
-}
-
 .card-info
 {
     width: 264px;
@@ -912,7 +899,7 @@ h2
     padding: 0px;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -920,6 +907,11 @@ h2
 {
     width: 168px;
     height: 24px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .card5:hover
