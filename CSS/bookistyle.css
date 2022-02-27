@@ -1050,3 +1050,361 @@ p
     font-weight: 400;
     text-decoration: none;
 }
+
+
+@media screen and (max-width:992px)
+{
+    
+}
+
+
+@media screen and (max-width:768px)
+{
+    body
+    {
+        width: 375px;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-content: center;
+       
+    }
+    
+    .maincontainer
+    {
+        width :100%;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+   
+    .header
+    {
+        width: 100%;
+
+    }
+
+    .logo
+    {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+    }
+
+    nav
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .navi-links
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+
+    .navi-links li
+    {
+        width: 100%;
+        border-bottom:2px solid  #F2F2F2; 
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+    }
+
+    .navi-links li a:hover
+    {
+     border-bottom: 2px solid #0065FC;
+     border-top: none;
+    }
+
+    .navi-links li a:active
+    {
+     border-bottom: 2px solid #0065FC;
+     border-top: none;
+
+    }
+
+
+    .top
+    {
+        margin: 10px;
+    }
+
+    .topheadings
+    {
+     max-width:100px ; 
+     
+    }
+
+    h3
+    {
+        font-size: 23px;
+    }
+
+    h5
+    {
+        font-size: 16px;
+    }
+     
+    .searchbox
+    {
+        max-width: 100%;
+        display: flex;
+        height: 70px;
+
+    }
+
+    .fa-location-dot 
+    {
+        width:auto;
+    }
+
+    input
+    {
+        height: 70px;
+        display: flex;
+        max-width: 200px;
+        height:66px;
+
+    }
+
+    .button1
+    {
+        visibility: hidden;
+        width: 10px;
+        padding: 0px;
+        position: relative;
+        left: -20px;
+    }
+
+    .icnbutton
+    {
+        padding: 0px;
+        margin: 0px;
+        border-style: none;
+        border-radius:0 15px 15px 0 ;
+        visibility: visible;
+        position: relative;
+        left: -40px;
+    }
+
+    .fa-magnifying-glass
+    {
+        background: #0065FC;
+        color: white;
+        margin-left: 0px;
+        border-style: none;
+        border-radius: 0 15px 15px 0;
+        font-size: 20px;
+        text-align: center;
+        width: auto;
+    }
+
+    .filters
+    {
+        display: flexbox;
+        flex-wrap:wrap;
+        justify-content:left;
+        width: 100%;
+        max-height: 340px;
+    }
+
+    .button2
+    {
+        font-size: 17px;
+        width: auto; 
+        padding-left: 0px;
+    }
+   
+    .fa-dog
+    {
+        width: 250px;
+    }
+
+    .fa-child
+    {
+        width:230px;
+    }
+    
+    .fa-heart
+    {
+        width:170px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .fa-money-bill-wave
+    {
+        width: 170px;
+    }
+
+    .info p
+    {
+        font-size: 19px;
+        max-width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .middle
+    {
+        width:auto;
+    }
+
+    .right
+    {
+        width: 100%;
+        background: none;
+        padding-top: 0px;
+    }
+
+    .left
+    {
+        width: 100%;
+        border-radius:0px;
+        margin-bottom: 0px;
+        z-index: 3;
+
+    }
+
+    .most
+    {
+        margin-left: 10px;
+    }
+
+    .card2
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 360px;
+        height: 220px;
+    }
+
+    .star-rating
+    {
+        margin-top:40px;
+    }
+
+    .accom
+    {
+        width: 100%;
+        font-size: 23px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .card1
+    {
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .show
+    {
+        margin-left: 10px;
+        font-size: 23px;
+    }
+
+    .bottom
+    {
+        justify-content: center;
+        align-content: center;
+        margin-left: 10px;
+    }
+
+    .activ
+    {
+        font-size: 23px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: 10px;
+    }
+
+    .card3 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .card-info
+    {
+     margin-top: 10px;
+    }
+
+    .card4 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .card6 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .card5 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .margin1
+    {
+        width: 355px;
+    }
+
+    .margin2
+    {
+        width: 355px;
+    }
+    
+    
+    .footer 
+    {
+        width: 375px;
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .footcontainer
+    {
+        width: 375px;
+    }
+   
+}
