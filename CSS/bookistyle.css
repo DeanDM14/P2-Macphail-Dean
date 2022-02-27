@@ -489,8 +489,8 @@ p
 
 .card-image
 {
-    max-width: 192px;
-    max-height: 96px;
+    width: 192px;
+    height: 96px;
     padding: 7px;
     overflow: hidden;
     border-radius: 25px 25px 0px 0px;
@@ -582,7 +582,7 @@ p
     border-radius: 25px;
 }
 
-.h2
+.most
 {
     display: flex;
     flex-direction: row;
@@ -592,11 +592,11 @@ p
     width: 264px;
     height: 24px;
     margin-left: 60px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
 }
 
-.i
+.fa-chart-line-up
 {
     display: flex;
     flex-direction: row;
@@ -605,7 +605,7 @@ p
     flex-wrap: nowrap;
     width: 24px;
     height: 24px;
-    padding: 60px;
+    padding-right: 60px;
 }
 
 .card2
@@ -624,24 +624,17 @@ p
 
 .card-image
 {
-    max-width: 102px;
-    max-height: 120px;
+    width: 102px;
+    height: 120px;
     padding: 7px;
     overflow: hidden;
-    border-radius: 25px 0px 0px 25px;
-}
-
-.img
-{
-    width: 102px;
-    max-height: 120px;
     border-radius: 25px 0px 0px 25px;
 }
 
 .card-info
 {
     width: 192px;
-    height: 54px;
+    height: 120px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -652,7 +645,7 @@ p
     height: 18px;
     margin-top: 3px;
     margin-bottom: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .description
