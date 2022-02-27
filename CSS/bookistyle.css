@@ -976,7 +976,7 @@ p
     margin: 0px;
 }
 
-.foothead1
+.footheader1
 {
     width: 192px;
     height: 120px;
@@ -985,7 +985,7 @@ p
     list-style: none;
 }
 
-.foothead2
+.footheader2
 {
     width: 168px;
     height: 96px;
@@ -994,7 +994,7 @@ p
     list-style: none;
 }
 
-.foothead3
+.footheader3
 {
     width: 96px;
     height: 96px;
@@ -1003,7 +1003,7 @@ p
     list-style: none;
 }
 
-.foothead1 a
+.footheader1 a
 {
     flex-wrap: nowrap;
     padding: 0px;
@@ -1013,7 +1013,7 @@ p
     text-decoration: none;
 }    
 
-.foothead2 a
+.footheader2 a
 {
     flex-wrap: nowrap;
     padding: 0px;
@@ -1023,7 +1023,7 @@ p
     text-decoration: none;
 }  
 
-.foothead3 a
+.footheader3 a
 {
     flex-wrap: nowrap;
     padding: 0px;
@@ -1033,14 +1033,14 @@ p
     text-decoration: none;
 }  
 
-.footsub
+.footnote
 {
     padding: 0px;
     margin: 0px;
     list-style: none;
 }    
 
-.footsub a
+.footnote a
 {
     flex-wrap: nowrap;
     padding: 0px;
