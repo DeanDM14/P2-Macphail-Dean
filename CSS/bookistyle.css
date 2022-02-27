@@ -455,7 +455,7 @@ p
     border-radius: 25px;
 }
 
-.h2
+.accom
 {
     display: flex;
     flex-direction: row;
@@ -467,7 +467,7 @@ p
     padding-bottom: 30px;
     margin-top: 30px;
     margin-left: 60px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -496,13 +496,6 @@ p
     border-radius: 25px 25px 0px 0px;
 }
 
-.img
-{
-    width: 192px;
-    height: 96px;
-    border-radius: 25px 25px 0px 0px;
-}
-
 .card-info
 {
     width: 192px;
@@ -518,7 +511,7 @@ p
     height: 18px;
     margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .description
@@ -567,7 +560,7 @@ p
 
 .show a
 {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
 }
 
