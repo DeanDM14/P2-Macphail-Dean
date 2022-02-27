@@ -969,7 +969,7 @@ p
     list-style: none;
 }
 
-.foothead a
+.foothead1 a
 {
     flex-wrap: nowrap;
     margin-top: 20px;
@@ -977,7 +977,25 @@ p
     font-weight: 600;
     text-decoration: none;
 }    
-    
+
+.foothead2 a
+{
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}  
+
+.foothead3 a
+{
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}  
+
 .footsub
 {
     padding-bottom: 20px;
