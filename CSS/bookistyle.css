@@ -742,10 +742,10 @@ p
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card-image img
 {
-    width: 252px;
-    height: 336px;
+    max-width: 100%;
+    height: auto;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
