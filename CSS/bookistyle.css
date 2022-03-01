@@ -58,7 +58,7 @@ body
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
     gap: 96px;
@@ -73,7 +73,7 @@ body
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
     list-style: none;
@@ -114,7 +114,7 @@ body
     justify-content: space-between;
     align-items: flex-start;
     gap: 48px;
-    padding: 0px;
+    padding: 36px;
     margin: 0px;
     color: #0065FC;
     border-top: 4px solid #0065FC;
@@ -126,7 +126,7 @@ body
     justify-content: space-between;
     align-items: flex-start;
     gap: 48px;
-    padding: 0px;
+    padding: 36px;
     margin: 0px;
     color: #0065FC;
     border-top: 4px solid #0065FC;
