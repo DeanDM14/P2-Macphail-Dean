@@ -47,10 +47,16 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 48px;
-    height: 24px;
+    width: 72px;
+    height: 36px;
     padding: 0px;
     margin: 0px;
+}
+
+.logo img
+{
+    width: 48px;
+    height: 24px;
 }
 
 .nav-links
@@ -114,7 +120,7 @@ body
     justify-content: space-between;
     align-items: flex-start;
     gap: 48px;
-    padding: 36px;
+    padding: 42px;
     margin: 0px;
     color: #0065FC;
     border-top: 4px solid #0065FC;
@@ -126,7 +132,7 @@ body
     justify-content: space-between;
     align-items: flex-start;
     gap: 48px;
-    padding: 36px;
+    padding: 42px;
     margin: 0px;
     color: #0065FC;
     border-top: 4px solid #0065FC;
