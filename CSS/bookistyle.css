@@ -47,8 +47,8 @@ body
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 72px;
-    height: 36px;
+    width: 48px;
+    height: 24px;
     padding: 0px;
     margin: 0px;
 }
@@ -61,6 +61,7 @@ body
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: nowrap;
+    gap: 96px;
     width: 384px;
     height: 48px;
     padding: 0px;
@@ -82,6 +83,8 @@ body
 
 .nav-links li #acc
 {
+    display: flex;
+    flex-direction: column;
     width: 120px;
     height: 24px;
     padding: 0px;
@@ -93,6 +96,8 @@ body
 
 .nav-links li #act
 {
+    display: flex;
+    flex-direction: column;
     width: 72px;
     height: 24px;
     padding: 0px;
@@ -104,6 +109,11 @@ body
 
 .nav-links li:hover
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -112,6 +122,10 @@ body
 
 .nav-links li:active
 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
