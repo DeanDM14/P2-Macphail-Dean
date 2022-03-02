@@ -193,7 +193,7 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     align-content: center;
     flex-wrap: nowrap;
     width: 384px;
@@ -206,29 +206,32 @@ h5
 
 .fa-location-dot
 {
-    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    flex-basis: 13%;
     width: 48px;
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
 }
 
-input
+.input
 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 62%;
     width: 192px;
-    height: 48px;
-    padding: 0px;
+    height: 46px;
+    padding-left: 14px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     border: 1px solid #F2F2F2;
     outline: none;
@@ -238,11 +241,13 @@ input
 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
     width: 84px;
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     text-align: center;
     background-color: #0065FC;
@@ -252,27 +257,16 @@ input
 
 .incbutton
 {
-    padding: 0px;
-    margin: 0px;
+    display: none;
     border-style: none;
-    border-radius: 0 15px 15px 0;
     visibility: hidden;
 }
 
 .fa-magnifying-glass
 {
-    width: 24px;
-    height: 24px;
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    background-color: #0065FC;
+    display: none;
     border-style: none;
-    border-radius: 0 15px 15px 0;
     visibility: hidden;
-
 }
 
 .filters
