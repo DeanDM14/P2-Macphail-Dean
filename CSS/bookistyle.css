@@ -163,7 +163,7 @@ body
     flex-wrap: nowrap;
     gap: 12px;
     width: 384px;
-    height: 72px;
+    height: 60px;
     padding: 0px;
     margin: 0px;
 }
@@ -197,7 +197,7 @@ h5
     align-content: center;
     flex-wrap: nowrap;
     width: 384px;
-    height: 72px;
+    height: 60px;
     padding: 0px;
     margin: 0px;
     background-color: white;
@@ -209,7 +209,6 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
     flex-basis: 13%;
     width: 48px;
     height: 48px;
@@ -258,13 +257,16 @@ h5
 .incbutton
 {
     display: none;
+    width: 0px;
+    height: 0px;
     border-style: none;
     visibility: hidden;
 }
 
 .fa-magnifying-glass
-{
-    display: none;
+{   display: none;
+    width: 0px;
+    height: 0px;
     border-style: none;
     visibility: hidden;
 }
@@ -278,22 +280,24 @@ h5
     align-content: space-between;
     flex-wrap: nowrap;
     width: 864px;
-    height: 72px;
+    height: 60px;
     padding: 0px;
     margin: 0px;
 }
 
-p
+.preview
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 72px;
+    flex-basis: 7%;
+    width: 48px;
     height: 48px;
-    padding: 0px;
+    padding-right: 36px;
+    padding-left: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -302,11 +306,11 @@ p
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     align-content: space-around;
     flex-wrap: nowrap;
     width: 768px;
-    height: 72px;
+    height: 60px;
     padding: 0px;
     margin: 0px;
 }
@@ -317,12 +321,14 @@ p
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-basis: 21%;
     flex-wrap: nowrap;
     width: 144px;
     height: 48px;
-    padding: 0px;
+    padding-right: 18px;
+    padding-left: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -335,12 +341,14 @@ p
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-basis: 25%;
     flex-wrap: nowrap;
     width: 192px;
     height: 48px;
-    padding: 0px;
+    padding-right: 18px;
+    padding-left: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -349,6 +357,9 @@ p
 
 .fa-money-bill-wave
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 48px;
     height: 48px;
     padding: 0px;
@@ -359,7 +370,11 @@ p
 }
 
 .fa-child
-{   width: 48px;
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
     height: 48px;
     padding: 0px;
     margin: 0px;
@@ -369,7 +384,11 @@ p
 }
 
 .fa-heart
-{   width: 48px;
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
     height: 48px;
     padding: 0px;
     margin: 0px;
@@ -380,6 +399,10 @@ p
 
 .fa-dog
 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 48px;
     height: 48px;
     padding: 0px;
@@ -393,7 +416,8 @@ p
 {
     color: white;
     background-color: #0065FC;
-    padding: 0px;
+    padding-right: 18px;
+    padding-left: 0px;
     margin: 0px;
 }
 
@@ -401,7 +425,8 @@ p
 {
     color: white;
     background-color: #0065FC;
-    padding: 0px;
+    padding-right: 18px;
+    padding-left: 0px;
     margin: 0px;
 }
 
@@ -413,8 +438,8 @@ p
     align-items: baseline;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 384px;
-    height: 48px;
+    width: 420px;
+    height: 60px;
     padding: 0px;
     margin: 0px;
 }
@@ -439,10 +464,10 @@ p
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 336px;
+    width: 384px;
     height: 24px;
     padding: 0px;
     margin: 0px;
