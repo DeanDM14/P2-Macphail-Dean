@@ -85,6 +85,8 @@ body
     list-style: none;
     padding: 0px;
     margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .nav-links li #acc
@@ -96,6 +98,7 @@ body
     padding: 0px;
     margin: 0px;
     font-size: 16px;
+    font-weight: 500;
     text-decoration: none;
     list-style: none;
 }
@@ -109,6 +112,7 @@ body
     padding: 0px;
     margin: 0px;
     font-size: 16px;
+    font-weight: 500;
     text-decoration: none;
     list-style: none;
 }
@@ -462,7 +466,7 @@ h5
     border-radius: 30px;
 }
 
-p
+.more
 {
     display: flex;
     flex-direction: row;
@@ -474,6 +478,7 @@ p
     padding: 0px;
     margin: 0px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 
@@ -486,7 +491,7 @@ p
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 36px;
+    gap: 48px;
     width: 1344px;
     height: 576px;
     padding: 0px;
@@ -503,8 +508,9 @@ p
     justify-content: space-around;
     align-items: center;
     align-content: space-around;
-    flex-basis: 60%;
+    flex-basis: 66%;
     flex-wrap: nowrap;
+    gap: 28px;
     width: 768px;
     height: 576px;
     padding: 0px;
@@ -538,9 +544,9 @@ p
     align-content: space-around;
     flex-grow: 1;
     flex-wrap: nowrap;
-    gap: 24px;
-    width: 672px;
-    height: 192px;
+    gap: 28px;
+    width: 770px;
+    height: 216px;
     padding: 0px;
     margin: 0px;
 }
@@ -549,43 +555,45 @@ p
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    align-content: space-between;
     flex-wrap: nowrap;
-    width: 216px;
-    height: 168px;
+    width: 240px;
+    height: 192px;
     padding: 0px;
     margin: 0px;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card1-image
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 58%;
-    width: 192px;
+    flex-basis: 60%;
+    width: 230px;
     height: 96px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border-radius: 25px 25px 0px 0px;
+    border: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px 20px 0px 0px;
 }
 
-.card-info
+.card1-info
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    flex-basis: 42%;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-basis: 40%;
     flex-wrap: nowrap;
+    gap: 6px;
     width: 192px;
     height: 72px;
     padding: 0px;
@@ -598,28 +606,30 @@ p
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-basis: 33%;
+    flex-basis: 28%;
     flex-wrap: nowrap;
-    width: 192px;
+    width: 210px;
     height: 18px;
     padding: 0px;
     margin: 0px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .description
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    flex-basis: 33%;
+    flex-basis: 28%;
     flex-wrap: nowrap;
     width: 144px;
     height: 18px;
     padding: 0px;
     margin: 0px;
     font-size: 12px;
+    font-weight: 400;
 }
 
 .star-rating
@@ -627,7 +637,7 @@ p
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    flex-basis: 33%;
+    flex-basis: 30%;
     flex-wrap: nowrap;
     width: 60px;
     height: 18px;
@@ -643,7 +653,7 @@ p
 
 .unchecked
 {
-    color: #d6d1d1;
+    color: #F2F2F2;
 }
 
 .card1:hover
@@ -662,9 +672,9 @@ p
     align-content: space-around;
     flex-grow: 1;
     flex-wrap: nowrap;
-    gap: 24px;
-    width: 672px;
-    height: 168px;
+    gap: 28px;
+    width: 770px;
+    height: 216px;
     padding: 0px;
     margin: 0px;
 }
@@ -677,31 +687,46 @@ p
     align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 216px;
-    height: 168px;
+    width: 240px;
+    height: 192px;
     padding: 0px;
     margin: 0px;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card2-image
 {
-    width: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 60%;
+    width: 230px;
     height: 96px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border-radius: 25px 25px 0px 0px;
+    border: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px 20px 0px 0px;
 }
 
-.card-info
+.card2-info
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 40%;
+    flex-wrap: nowrap;
     width: 192px;
     height: 72px;
     padding: 0px;
     margin: 0px;
+    
 }
 
 .card-title
@@ -737,7 +762,7 @@ p
 
 .unchecked
 {
-    color: #d6d1d1;
+    color: #F2F2F2;
 }
 
 .card2:hover
@@ -748,7 +773,8 @@ p
 }
 
 .show
-{   display: flex;
+{   
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
@@ -772,13 +798,27 @@ p
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    flex-basis: 40%;
-    width: 432px;
+    flex-basis: 33%;
+    gap: 24px;
+    width: 384px;
     height: 576px;
     padding: 0px;
     margin: 0px;
     background-color: #F2F2F2;
     border-radius: 25px;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 336px;
+    height: 24px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .most
@@ -788,7 +828,7 @@ p
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
-    width: 264px;
+    width: 144px;
     height: 24px;
     padding: 0px;
     margin: 0px;
@@ -813,32 +853,48 @@ p
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 288px;
-    height: 120px;
+    gap: 24px;
+    width: 336px;
+    height: 132px;
     padding: 0px;
     margin: 0px;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card3-image
 {
-    width: 102px;
-    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-basis: 35%;
+    width: 120px;
+    height: 122px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border-radius: 25px 0px 0px 25px;
+    border: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px 0px 0px 20px;
 }
 
-.card-info
+.card3-info
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-basis: 65%;
+    gap: 20px;
     width: 192px;
-    height: 120px;
+    height: 114px;
     padding: 0px;
     margin: 0px;
 }
@@ -930,17 +986,17 @@ p
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image img
+.card4-image
 {
-    max-width: 100%;
-    height: auto;
+    width: 264px;
+    height: 384px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-info
+.card4-info
 {
     width: 264px;
     height: 48px;
@@ -990,7 +1046,7 @@ p
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card5-image
 {
     width: 252px;
     height: 144px;
@@ -1000,7 +1056,7 @@ p
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-info
+.card5-info
 {
     width: 264px;
     height: 48px;
@@ -1040,7 +1096,7 @@ p
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card7-image
 {
     width: 252px;
     height: 96px;
@@ -1050,7 +1106,7 @@ p
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-info
+.card7-info
 {
     width: 264px;
     height: 48px;
@@ -1100,7 +1156,7 @@ p
     box-shadow: 0 5px 10px #d6d1d1;
 }
 
-.card-image
+.card6-image
 {
     width: 252px;
     height: 120px;
@@ -1110,7 +1166,7 @@ p
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-info
+.card6-info
 {
     width: 264px;
     height: 48px;
