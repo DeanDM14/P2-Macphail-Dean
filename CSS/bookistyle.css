@@ -3,8 +3,7 @@ body
     max-width: auto;
     max-height: 100%;
     padding: 0px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: 0px;
     font-family:'Raleway', sans-serif;
     font-size: 21px;
     color: black;
@@ -19,10 +18,12 @@ body
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
+    gap: 48px;
     width: 1440px;
     height: 100%;
     padding: 0px;
-    margin: 0px;
+    margin-right: 48px;
+    margin-left: 48px;
 }
 
 
@@ -153,13 +154,13 @@ body
     align-items: baseline;
     align-content: space-between;
     gap: 24px;
-    width: 1152px;
+    width: 1344px;
     height: 288px;
     padding: 0px;
     margin: 0px;
 }
 
-.topheading
+.top-heading
 {
     display: flex;
     flex-direction: column;
@@ -459,7 +460,7 @@ h5
     height: 24px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     color: #0065FC;
     border: 1px solid #F2F2F2;
@@ -519,6 +520,14 @@ h5
     border-radius: 25px;
 }
 
+.left-heading
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .accom
 {
     display: flex;
@@ -526,7 +535,7 @@ h5
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
-    width: 720px;
+    width: 744px;
     height: 24px;
     padding-top: 36px;
     padding-left: 0px;
@@ -589,18 +598,18 @@ h5
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     flex-basis: 40%;
     flex-wrap: nowrap;
-    gap: 6px;
+    gap: 3px;
     width: 192px;
     height: 72px;
     padding: 0px;
     margin: 0px;
 }
 
-.card-title
+.card1-title
 {
     display: flex;
     flex-direction: row;
@@ -612,7 +621,7 @@ h5
     height: 18px;
     padding: 0px;
     margin: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -633,11 +642,12 @@ h5
 }
 
 .star-rating
-{   display: flex;
+{
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
-    flex-basis: 30%;
+    align-items: flex-start;
+    flex-basis: 28%;
     flex-wrap: nowrap;
     width: 60px;
     height: 18px;
@@ -722,6 +732,7 @@ h5
     align-items: flex-start;
     flex-basis: 40%;
     flex-wrap: nowrap;
+    gap: 3px;
     width: 192px;
     height: 72px;
     padding: 0px;
@@ -729,8 +740,14 @@ h5
     
 }
 
-.card-title
+.card2-title
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 28%;
+    flex-wrap: nowrap;
     width: 168px;
     height: 18px;
     padding: 0px;
@@ -740,6 +757,12 @@ h5
 
 .description
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 28%;
+    flex-wrap: nowrap;
     width: 144px;
     height: 18px;
     padding: 0px;
@@ -749,6 +772,12 @@ h5
 
 .star-rating
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 28%;
+    flex-wrap: nowrap;
     width: 60px;
     height: 18px;
     padding: 0px;
@@ -779,7 +808,7 @@ h5
     justify-content: flex-start;
     align-items: flex-end;
     flex-wrap: nowrap;
-    width: 720px;
+    width: 744px;
     height: 24px;
     padding-bottom: 36px;
     padding-left: 0px;
@@ -795,26 +824,26 @@ h5
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    align-content: space-around;
+    align-content: space-between;
     flex-basis: 33%;
-    gap: 24px;
     width: 384px;
     height: 576px;
-    padding: 0px;
+    padding-bottom: 24px;
     margin: 0px;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
 
-.header
+.right-heading
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
+    flex-basis: 10%;
     width: 336px;
     height: 24px;
     padding: 0px;
@@ -826,7 +855,7 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
     width: 144px;
     height: 24px;
@@ -841,7 +870,7 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
     width: 24px;
     height: 24px;
@@ -857,6 +886,7 @@ h5
     align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
+    flex-basis: 20%;
     gap: 24px;
     width: 336px;
     height: 132px;
@@ -873,9 +903,9 @@ h5
     flex-direction: row;
     justify-content: flex-end;
     align-items: stretch;
-    flex-basis: 35%;
+    flex-basis: 40%;
     width: 120px;
-    height: 122px;
+    height: 120px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -891,15 +921,16 @@ h5
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    flex-basis: 65%;
-    gap: 20px;
+    align-content: space-around;
+    flex-basis: 60%;
+    gap: 24px;
     width: 192px;
     height: 114px;
     padding: 0px;
     margin: 0px;
 }
 
-.card-title
+.card3-title
 {
     width: 168px;
     height: 18px;
@@ -932,7 +963,7 @@ h5
 .unchecked
 {
     color: #F2F2F2;
-}
+}i
 
 .card3:hover
 {
@@ -941,19 +972,14 @@ h5
     margin: 0px;
 }
 
-
-.bottom
+.bottom-heading
 {
-    position: static;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-    width: 1344px;
-    height: 432px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 384px;
+    height: 30px;
     padding: 0px;
     margin: 0px;
 }
@@ -963,14 +989,31 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-wrap: nowrap;
-    width: 196px;
+    width: 288px;
     height: 24px;
     padding: 0px;
     margin: 0px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
+}
+
+.bottom
+{
+    position: static;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap: 33px;
+    width: 1344px;
+    height: 480px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .card4
@@ -978,8 +1021,8 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 264px;
-    height: 384px;
+    width: 304px;
+    height: 432px;
     padding: 0px;
     margin: 0px;
     border-radius: 20px;
@@ -988,7 +1031,7 @@ h5
 
 .card4-image
 {
-    width: 264px;
+    width: 304px;
     height: 384px;
     padding: 0px;
     margin: 0px;
@@ -998,22 +1041,26 @@ h5
 
 .card4-info
 {
-    width: 264px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 304px;
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.card-title
+.card4-title
 {
-    width: 168px;
+    width: 264px;
     height: 24px;
     padding: 0px;
     margin: 0px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .card4:hover
@@ -1029,6 +1076,7 @@ h5
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 33px;
     padding: 0px;
     margin: 0px;
 }
@@ -1038,8 +1086,8 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 264px;
-    height: 192px;
+    width: 304px;
+    height: 240px;
     padding: 0px;
     margin: 0px;
     border-radius: 20px;
@@ -1048,8 +1096,8 @@ h5
 
 .card5-image
 {
-    width: 252px;
-    height: 144px;
+    width: 304px;
+    height: 192px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1057,23 +1105,27 @@ h5
 }
 
 .card5-info
-{
-    width: 264px;
+{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 304px;
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.card-title
+.card5-title
 {
-    width: 96px;
+    width: 264px;
     height: 24px;
     padding: 0px;
     margin: 0px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .card5:hover
@@ -1088,8 +1140,8 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 264px;
-    height: 144px;
+    width: 304px;
+    height: 160px;
     padding: 0px;
     margin: 0px;
     border-radius: 20px;
@@ -1098,8 +1150,8 @@ h5
 
 .card7-image
 {
-    width: 252px;
-    height: 96px;
+    width: 304px;
+    height: 120px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1108,22 +1160,26 @@ h5
 
 .card7-info
 {
-    width: 264px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 304px;
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.card-title
+.card7-title
 {
-    width: 84px;
+    width: 264px;
     height: 24px;
     padding: 0px;
     margin: 0px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .card7:hover
@@ -1139,6 +1195,7 @@ h5
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 33px;
     padding: 0px;
     margin: 0px;
 }
@@ -1148,8 +1205,8 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 264px;
-    height: 168px;
+    width: 304px;
+    height: 198px;
     padding: 0px;
     margin: 0px;
     border-radius: 20px;
@@ -1158,8 +1215,8 @@ h5
 
 .card6-image
 {
-    width: 252px;
-    height: 120px;
+    width: 304px;
+    height: 168px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1168,22 +1225,26 @@ h5
 
 .card6-info
 {
-    width: 264px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 304px;
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.card-title
+.card6-title
 {
-    width: 168px;
+    width: 264px;
     height: 24px;
     padding: 0px;
     margin: 0px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .card6:hover
@@ -1224,7 +1285,7 @@ h5
     gap: 12px;
     width: 384px;
     height: 144px;
-    padding: 0px;
+    padding-left: 48px;
     margin: 0px;
 }
 
