@@ -124,8 +124,8 @@ body
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 48px;
-    padding: 42px;
+    gap: 42px;
+    padding: 36px;
     margin: 0px;
     color: #0065FC;
     border-top: 4px solid #0065FC;
@@ -136,8 +136,8 @@ body
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 48px;
-    padding: 42px;
+    gap: 42px;
+    padding: 36px;
     margin: 0px;
     color: #0065FC;
     border-top: 4px solid #0065FC;
@@ -314,7 +314,7 @@ h5
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    align-content: space-around;
+    align-content: space-between;
     flex-wrap: nowrap;
     width: 768px;
     height: 60px;
@@ -367,8 +367,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -381,8 +381,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -395,8 +395,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -410,8 +410,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -1369,7 +1369,7 @@ h5
 {
     body
     {
-        width: 375px;
+        width: 768px;
         margin: 0px;
         padding: 0px;
         justify-content: center;
@@ -1398,19 +1398,12 @@ h5
         margin-left: 60px;
     }
 
-    nav
+    .nav-links
     {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-    }
-    
-    .navi-links
-    {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
     }
 
     .navi-links li
@@ -1440,14 +1433,14 @@ h5
         margin: 10px;
     }
 
-    .topheadings
+    .top-heading
     {
      max-width:100px ; 
     }
 
     h3
     {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     h5
@@ -1455,7 +1448,7 @@ h5
         font-size: 16px;
     }
      
-    .searchbox
+    .search-box
     {
         max-width: 100%;
         display: flex;
@@ -1467,7 +1460,7 @@ h5
         width:auto;
     }
 
-    input
+    .input
     {
         height: 70px;
         display: flex;
@@ -1522,17 +1515,12 @@ h5
         width: auto; 
         padding-left: 0px;
     }
-   
-    .fa-dog
+
+    .fa-money-bill-wave
     {
-        width: 250px;
+        width: 170px;
     }
 
-    .fa-child
-    {
-        width:230px;
-    }
-    
     .fa-heart
     {
         width:170px;
@@ -1540,24 +1528,34 @@ h5
         right: 10px;
     }
 
-    .fa-money-bill-wave
+    .button3
     {
-        width: 170px;
+        font-size: 17px;
+        width: auto; 
+        padding-left: 0px;
     }
 
-    .info p
+    .fa-child
+    {
+        width:230px;
+    }
+
+    .fa-dog
+    {
+        width: 250px;
+    }
+
+    .info
     {
         font-size: 19px;
         max-width: 350px;
         padding-bottom: 20px;
     }
 
-
     .middle
     {
         width:auto;
     }
-
 
     .left
     {
@@ -1583,6 +1581,13 @@ h5
         margin-bottom: 20px;
     }
 
+    .card2
+    {
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
     .show
     {
         margin-left: 10px;
@@ -1602,7 +1607,7 @@ h5
         margin-left: 10px;
     }
 
-    .card2
+    .card3
     {
         margin-left: 10px;
         margin-right: 10px;
@@ -1630,53 +1635,24 @@ h5
         margin-left: 10px;
     }
 
-    .card3 
-    {
-        width: 355px;
-        height: 200px;
-    }
-
-    .card-image
-    {
-        width: 100%;
-        height: 140px;
-    }
-
-    .card-info
-    {
-     margin-top: 10px;
-    }
-
-    .margin1
-    {
-        width: 355px;
-    }
-
     .card4 
     {
         width: 355px;
         height: 200px;
     }
 
-    .card-image
+    .card4-image
     {
         width: 100%;
         height: 140px;
     }
 
-    .card6 
+    .card4-info
     {
-        width: 355px;
-        height: 200px;
+     margin-top: 10px;
     }
 
-    .card-image
-    {
-        width: 100%;
-        height: 140px;
-    }
-
-    .margin2
+    .margin1
     {
         width: 355px;
     }
@@ -1687,12 +1663,55 @@ h5
         height: 200px;
     }
 
-    .card-image
+    .card5-image
     {
         width: 100%;
         height: 140px;
     }
 
+    .card5-info
+    {
+        margin-top: 10px;
+    }
+
+    .card7 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card7-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .card7-info
+    {
+        margin-top: 10px;
+    }
+
+    .margin2
+    {
+        width: 355px;
+    }
+
+    .card6 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card6-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .card6-info
+    {
+        margin-top: 10px;
+    }
     
     .footer 
     {
@@ -1742,19 +1761,12 @@ h5
         margin-left: 60px;
     }
 
-    nav
-    {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
     .navi-links
     {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     .navi-links li
@@ -1784,7 +1796,7 @@ h5
         margin: 10px;
     }
 
-    .topheadings
+    .top-heading
     {
      max-width:100px ; 
     }
@@ -1799,7 +1811,7 @@ h5
         font-size: 16px;
     }
      
-    .searchbox
+    .search-box
     {
         max-width: 100%;
         display: flex;
@@ -1811,7 +1823,7 @@ h5
         width:auto;
     }
 
-    input
+    .input
     {
         height: 70px;
         display: flex;
@@ -1871,12 +1883,7 @@ h5
     {
         width: 170px;
     }
-    
-    .fa-child
-    {
-        width:230px;
-    }
-    
+
     .fa-heart
     {
         width:170px;
@@ -1884,12 +1891,24 @@ h5
         right: 10px;
     }
 
+    .button3
+    {
+        font-size: 17px;
+        width: auto; 
+        padding-left: 0px;
+    }
+
+    .fa-child
+    {
+        width:230px;
+    }
+    
     .fa-dog
     {
         width: 250px;
     }
 
-    .info p
+    .info
     {
         font-size: 19px;
         max-width: 350px;
@@ -1902,8 +1921,6 @@ h5
         width:auto;
     }
 
-
-    
     .left
     {
         width: 100%;
@@ -1922,6 +1939,13 @@ h5
     }
 
     .card1
+    {
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card2
     {
         width: 100%;
         margin: 10px;
@@ -1947,7 +1971,7 @@ h5
         margin-left: 10px;
     }
 
-    .card2
+    .card3
     {
         margin-left: 10px;
         margin-right: 10px;
@@ -1976,53 +2000,24 @@ h5
         margin-left: 10px;
     }
 
-    .card3 
-    {
-        width: 355px;
-        height: 200px;
-    }
-
-    .card-image
-    {
-        width: 100%;
-        height: 140px;
-    }
-
-    .card-info
-    {
-     margin-top: 10px;
-    }
-
-    .margin1
-    {
-        width: 355px;
-    }
-
     .card4 
     {
         width: 355px;
         height: 200px;
     }
 
-    .card-image
+    .card4-image
     {
         width: 100%;
         height: 140px;
     }
 
-    .card6 
+    .card4-info
     {
-        width: 355px;
-        height: 200px;
+     margin-top: 10px;
     }
 
-    .card-image
-    {
-        width: 100%;
-        height: 140px;
-    }
-    
-    .margin2
+    .margin1
     {
         width: 355px;
     }
@@ -2033,7 +2028,36 @@ h5
         height: 200px;
     }
 
-    .card-image
+    .card5-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+
+    .card7 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card7-image
+    {
+        width: 100%;
+        height: 140px;
+    }
+    
+    .margin2
+    {
+        width: 355px;
+    }
+
+    .card6 
+    {
+        width: 355px;
+        height: 200px;
+    }
+
+    .card6-image
     {
         width: 100%;
         height: 140px;
