@@ -1,7 +1,7 @@
 body
 {
-    max-width: fit-content;
-    max-height: 100%;
+    max-width: 100%;
+    max-height: none;
     padding: 0px;
     margin: 0px;
     font-family:'Raleway', sans-serif;
@@ -18,11 +18,11 @@ body
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    gap: 48px;
+    gap: 24px;
     width: 1440px;
     height: 100%;
     padding: 0px;
-    margin-right: 48px;
+    margin-right: 24px;
     margin-left: 48px;
 }
 
@@ -56,6 +56,8 @@ body
 
 .logo img
 {
+    display: flex;
+    object-fit: contain;
     width: 96px;
     height: 48px;
 }
@@ -220,7 +222,6 @@ h5
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 18px;
     color: black;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
@@ -233,7 +234,7 @@ h5
     align-items: center;
     flex-basis: 62%;
     width: 192px;
-    height: 46px;
+    height: 45px;
     padding-left: 14px;
     margin: 0px;
     font-size: 16px;
@@ -253,6 +254,7 @@ h5
     padding: 0px;
     margin: 0px;
     font-size: 16px;
+    font-weight: 600;
     color: white;
     text-align: center;
     background-color: #0065FC;
@@ -272,7 +274,7 @@ h5
     margin: 0px;
     color: white;
     border-style: none;
-    border-radius: 0 15px 15px 0;
+    border-radius: 10px;
     visibility: hidden;
 }
 
@@ -286,12 +288,10 @@ h5
     height: 0px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
     color: white;
-    text-align: center;
     border-style: none;
-    border-radius: 0 15px 15px 0;
-
+    border-radius: 10px;
+    visibility: hidden;
 }
 
 .filters
@@ -332,7 +332,8 @@ h5
     align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 768px;
+    gap: 24px;
+    width: 816px;
     height: 60px;
     padding: 0px;
     margin: 0px;
@@ -344,8 +345,10 @@ h5
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: space-between;
     flex-basis: 21%;
     flex-wrap: nowrap;
+    gap: 14px;
     width: 144px;
     height: 48px;
     padding-right: 18px;
@@ -354,27 +357,7 @@ h5
     font-size: 16px;
     font-weight: 600;
     background-color: white;
-    border: 2px solid #F2F2F2;
-    border-radius: 32px;
-}
-
-.button3
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 25%;
-    flex-wrap: nowrap;
-    width: 192px;
-    height: 48px;
-    padding-right: 18px;
-    padding-left: 0px;
-    margin: 0px;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: white;
-    border: 2px solid #F2F2F2;
+    border: 3px solid #d8d6d6;
     border-radius: 32px;
 }
 
@@ -389,7 +372,37 @@ h5
     margin: 0px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 38px;
+    border-radius: 32px;
+}
+
+.button2:hover
+{
+    color: white;
+    background-color: #0065FC;
+    padding-right: 18px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.button3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 27%;
+    flex-wrap: nowrap;
+    gap: 14px;
+    width: 240px;
+    height: 48px;
+    padding-right: 18px;
+    padding-left: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: 3px solid #d8d6d6;
+    border-radius: 32px;
 }
 
 .fa-child
@@ -406,6 +419,35 @@ h5
     border-radius: 38px;
 }
 
+.button3:hover
+{
+    color: white;
+    background-color: #0065FC;
+    padding-right: 18px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.button4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 22%;
+    flex-wrap: nowrap;
+    width: 144px;
+    height: 48px;
+    padding-right: 18px;
+    padding-left: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: 3px solid #d8d6d6;
+    border-radius: 32px;
+}
+
 .fa-heart
 {   
     display: flex;
@@ -420,9 +462,37 @@ h5
     border-radius: 38px;
 }
 
+.button4:hover
+{
+    color: white;
+    background-color: #0065FC;
+    padding-right: 18px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.button5
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 25%;
+    flex-wrap: nowrap;
+    width: 192px;
+    height: 48px;
+    padding-right: 18px;
+    padding-left: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: 3px solid #d8d6d6;
+    border-radius: 32px;
+}
+
 .fa-dog
 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -435,16 +505,7 @@ h5
     border-radius: 38px;
 }
 
-.button2:hover
-{
-    color: white;
-    background-color: #0065FC;
-    padding-right: 18px;
-    padding-left: 0px;
-    margin: 0px;
-}
-
-.button3:hover
+.button5:hover
 {
     color: white;
     background-color: #0065FC;
@@ -476,10 +537,8 @@ h5
     height: 24px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
-    font-weight: 900;
     color: #0065FC;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #d8d6d6;
     border-radius: 30px;
 }
 
@@ -613,6 +672,7 @@ h5
     flex-basis: 60%;
     width: 230px;
     height: 96px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -743,6 +803,7 @@ h5
     flex-basis: 60%;
     width: 230px;
     height: 96px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -935,6 +996,7 @@ h5
     flex-basis: 40%;
     width: 120px;
     height: 120px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1062,6 +1124,7 @@ h5
 {
     width: 304px;
     height: 384px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1127,6 +1190,7 @@ h5
 {
     width: 304px;
     height: 192px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1181,6 +1245,7 @@ h5
 {
     width: 304px;
     height: 120px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1246,6 +1311,7 @@ h5
 {
     width: 304px;
     height: 168px;
+    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -1389,19 +1455,21 @@ h5
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         align-content: center;
-        max-width: 400px;
-        margin: 0px;
+        width: 400px;
         padding: 0px;
+        margin: 0px;
     }
     
     .maincontainer
     {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
         align-content: center;
-        width :100%;
+        width: 400px;
         padding: 0px;
         margin: 0px;
     }
@@ -1409,10 +1477,14 @@ h5
     .header
     {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: center;        align-items: center;
         align-content: center;
-        width: 100%;
+        gap: 24px;
+        width: 400px;
+        height: 168px;
+        padding-top: 24px;
+        margin: 0px;
     }
 
     .logo
@@ -1421,39 +1493,48 @@ h5
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        margin-left: 60px;
+        width: 96px;
+        height: 48px;
+        padding-right: 24px;
+        margin: 0px;
     }
 
     .navi-links
     {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        align-content: center;
-        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: space-around;
+        width: 400px;
+        height: 48px;
+        padding: 0px;
+        margin: 0px;
     }
 
     .navi-links li
     {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        align-items: center;
         align-content: center;
-        width: 100%;
-        border-bottom:2px solid  #F2F2F2; 
+        width: 144px;
+        height: 24px;
+        border-top: hidden;
+        border-bottom: 4px solid  #F2F2F2; 
     }
 
     .navi-links li a:hover
-    {
-     border-bottom: 2px solid #0065FC;
-     border-top: none;
+    {   
+        border-top: hidden;
+        border-bottom: 4px solid #0065FC;
     }
 
     .navi-links li a:active
-    {
-     border-bottom: 2px solid #0065FC;
-     border-top: none;
+    {   
+        border-top: hidden;
+        border-bottom: 4px solid #0065FC;
     }
 
 
@@ -1462,8 +1543,11 @@ h5
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
-        margin: 10px;
+        align-items: center;        align-content: center;
+        width: 400px;
+        height: 576px;
+        padding: 0px;
+        margin: 0px;
     }
 
     .top-heading
@@ -1471,8 +1555,9 @@ h5
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
         align-content: center;
-        max-width: 100px ; 
+        width: 240px ; 
     }
 
     h3
@@ -1490,61 +1575,62 @@ h5
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-content: center;
-        max-width: 100%;
-        height: 70px;
+        align-items: center;        align-content: center;
+        width: 288px;
+        height: 48px;
     }
 
     .fa-location-dot 
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        align-content: center;
-        width:auto;
+        align-items: center;        align-content: center;
+        width: 36px;
+        height: 36px;
     }
 
     .input
     {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         align-content: center;
-        max-width: 200px;
-        height: 70px;
+        width: 192px;
+        height: 36px;
     }
 
     .button1
     {
-
+        position: relative;
         width: 10px;
         padding: 0px;
-        position: relative;
-        left: -20px;
+        margin: 0px;
         visibility: hidden;
     }
 
     .icnbutton
     {
+        position: relative;
+        width: 36px;
+        height: 36px;
         padding: 0px;
         margin: 0px;
+        background: #0065FC;
         border-style: none;
-        border-radius: 15px;
+        border-radius: 10px;
         visibility: visible;
-        position: relative;
-        left: -40px;
     }
 
     .fa-magnifying-glass
     {
-        background: #0065FC;
-        color: white;
+        width: 36px;
         margin-left: 0px;
-        border-style: none;
-        border-radius: 15px;
-        font-size: 20px;
+        color: white;        border-style: none;
+        border-radius: 10px;
         text-align: center;
-        width: auto;
+        visibility: visible;
     }
 
     .filters
@@ -1553,46 +1639,90 @@ h5
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        align-content: space-between;
+        align-content: flex-start;
         flex-wrap:wrap;
-        width: 100%;
-        max-height: 340px;
+        width: 288px;
+        height: 240px;
+    }
+
+    .preview
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap:nowrap;
+        width: 48px;
+        height: 24px;
+    }
+
+    .buttons
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: space-around;
+        flex-wrap:wrap;
+        width: 288px;
+        height: 144px;
     }
 
     .button2
     {
-        font-size: 17px;
-        width: auto; 
-        padding-left: 0px;
+        font-size: 16px;
+        width: 144px;
+        height: 48px; 
+        border: 2px solid #d8d6d6;
     }
 
     .fa-money-bill-wave
     {
-        width: 170px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .button4
+    {
+        font-size: 16px;
+        width: 144px;
+        height: 48px;
+        border: 2px solid #d8d6d6;
+
     }
 
     .fa-heart
     {
-        width:170px;
-        position: absolute;
-        right: 10px;
+        width: 48px;
+        height: 48px;
     }
 
     .button3
     {
-        font-size: 17px;
-        width: auto; 
-        padding-left: 0px;
+        font-size: 16px;
+        width: 192px;
+        height: 48px;
+        border: 2px solid #d8d6d6;
     }
 
     .fa-child
     {
-        width:230px;
+        width: 48px;
+        height: 48px;
     }
     
+    .button5
+    {
+        font-size: 16px;
+        width: 168px;
+        height: 48px;
+        border: 2px solid #d8d6d6;
+    }
+
     .fa-dog
     {
-        width: 250px;
+        width: 48px;
+        height: 48px;
     }
 
     .info
@@ -1601,8 +1731,9 @@ h5
         flex-direction: row;
         justify-content: flex-start;
         align-content: center;
-        font-size: 19px;
-        max-width: 350px;
+        font-size: 16px;
+        width: 240px;
+        height: 48px;
         padding-bottom: 20px;
     }
 
@@ -1610,10 +1741,11 @@ h5
     .middle
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
-        align-content: center;
-        width:auto;
+        align-items: center;
+        align-content: space-around;
+        width: 400px;
     }
 
 
@@ -1622,10 +1754,14 @@ h5
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
-        width: 100%;
+        align-items: center;
+        align-content: space-around;
+        width: 400px;
+        height: 768px;
+        padding: 0px;
+        margin: 0px;
         background: #F2F2F2;
-        padding-top: 0px;
+        border-radius: 0px;
     }
 
     .most
@@ -1638,7 +1774,7 @@ h5
         margin-left: 10px;
         margin-right: 10px;
         width: 360px;
-        height: 220px;
+        height: 144px;
     }
 
     .star-rating
@@ -1648,44 +1784,92 @@ h5
 
     .left
     {
-        z-index: 3;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        width: 100%;
+        width: 400px;
         margin-bottom: 0px;
-        background-color: none;
-        border-radius:0px;
+        background: none;
+        border-radius: 0px;
     }
 
     .accom
     {
-        width: 100%;
-        font-size: 23px;
+        width: 240px;
+        font-size: 20px;
         padding-top: 20px;
         margin-left: 20px;
         margin-top: 20px;
     }
 
+    .row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+        margin-bottom: 0px;
+        background: none;
+        border-radius: 0px;
+    }
+
     .card1
     {
-        width: 100%;
+        width: 336px;
+        height: 192px;
         margin: 10px;
         margin-bottom: 20px;
     }
 
+    .card1-image
+    {
+        width: 336px;
+        height: 144px;
+    }
+
+    .card1-info
+    {
+     margin-top: 10px;
+    }
+
+    .row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+        margin-bottom: 0px;
+        background: none;
+        border-radius: 0px;
+    }
+    
     .card2
     {
-        width: 100%;
+        width: 336px;
+        height: 192px;
         margin: 10px;
         margin-bottom: 20px;
     }
+
+    .card2-image
+    {
+        width: 336px;
+        height: 144px;
+    }
+
+    .card2-info
+    {
+     margin-top: 10px;
+    }
+
 
     .show
     {
         margin-left: 10px;
-        font-size: 23px;
+        font-size: 16px;
     }
 
     .activ
@@ -1693,11 +1877,12 @@ h5
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        align-content: center;
-        font-size: 23px;
-        padding-top: 0px;
-        margin-top: 0px;
-        margin-left: 10px;
+        align-items: flex-end;
+        height: 24px;
+        font-size: 20px;
+        padding-bottom: 0px;
+        padding-left: 36px;
+        margin: 0px;
     }
 
     .bottom
@@ -1705,20 +1890,26 @@ h5
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
-        margin-left: 10px;
+        align-items: center;
+        align-content: space-around;
+        width: 360px;
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 48px;
+        padding-left: 36px;
+        margin: 0px;
     }
 
     .card4 
     {
-        width: 355px;
-        height: 200px;
+        width: 336px;
+        height: 192px;
     }
 
     .card4-image
     {
-        width: 100%;
-        height: 140px;
+        width: 336px;
+        height: 144px;
     }
 
     .card4-info
@@ -1728,19 +1919,19 @@ h5
 
     .margin1
     {
-        width: 355px;
+        width: 400px;
     }
 
     .card5 
     {
-        width: 355px;
-        height: 200px;
+        width: 336px;
+        height: 192px;
     }
 
     .card5-image
     {
-        width: 100%;
-        height: 140px;
+        width: 336px;
+        height: 144px;
     }
 
     .card5-info
@@ -1750,14 +1941,14 @@ h5
 
     .card7 
     {
-        width: 355px;
-        height: 200px;
+        width: 336px;
+        height: 192px;
     }
 
     .card7-image
     {
-        width: 100%;
-        height: 140px;
+        width: 336px;
+        height: 144px;
     }
     
     .card7-info
@@ -1767,19 +1958,19 @@ h5
 
     .margin2
     {
-        width: 355px;
+        width: 400px;
     }
 
     .card6 
     {
-        width: 355px;
-        height: 200px;
+        width: 336px;
+        height: 192px;
     }
 
     .card6-image
     {
-        width: 100%;
-        height: 140px;
+        width: 336px;
+        height: 144px;
     }
     
     .card6-info
@@ -1793,9 +1984,11 @@ h5
         flex-direction: column;
         justify-content: flex-start;
         align-content: center;
-        width: 375px;
-        margin-left: 0px;
-        margin-right: 30px;
+        width: 400px;
+        height: auto;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        margin: 0px;
     }
 
     .footcontainer
@@ -1803,9 +1996,12 @@ h5
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: baseline;
         align-content: center;
-
-        width: 375px;
+        width: 288px;
+        height: 72px;
+        padding: 0px;
+        margin: 0px;
     }
    
 }
