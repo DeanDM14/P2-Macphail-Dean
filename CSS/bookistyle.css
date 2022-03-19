@@ -1,6 +1,6 @@
 body
 {
-    max-width: 100%;
+    width: 1536px;
     max-height: none;
     padding: 0px;
     margin: 0px;
@@ -8,7 +8,6 @@ body
     font-size: 21px;
     color: black;
 }
-
 
 .maincontainer
 {
@@ -25,7 +24,6 @@ body
     margin-right: 24px;
     margin-left: 48px;
 }
-
 
 .header
 {
@@ -92,7 +90,7 @@ body
     font-weight: 500;
 }
 
-.nav-links li #acc
+.nav-links li #accom
 {
     display: flex;
     flex-direction: column;
@@ -106,7 +104,7 @@ body
     list-style: none;
 }
 
-.nav-links li #act
+.nav-links li #activ
 {
     display: flex;
     flex-direction: column;
@@ -214,6 +212,7 @@ h5
 .fa-location-dot
 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -230,6 +229,7 @@ h5
 .input
 {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex-basis: 62%;
@@ -526,11 +526,13 @@ h5
     height: 60px;
     padding: 0px;
     margin: 0px;
+    font-size: 16px;
 }
 
 .fa-info
 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 24px;
@@ -556,7 +558,6 @@ h5
     font-size: 16px;
     font-weight: 400;
 }
-
 
 .middle
 {
@@ -631,8 +632,10 @@ h5
     font-weight: 500;
 }
 
-.row1
+.card-box1
 {
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -761,8 +764,10 @@ h5
     margin: 0px;
 }
 
-.row2
+.card-box2
 {
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -905,7 +910,6 @@ h5
     font-size: 16px;
     font-weight: 500;
 }
-
 
 .right
 {
@@ -1164,6 +1168,8 @@ h5
 
 .margin1
 {
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1285,6 +1291,8 @@ h5
 
 .margin2
 {
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1348,7 +1356,6 @@ h5
     padding: 0px;
     margin: 0px;
 }
-
 
 .footer
 {
@@ -1448,7 +1455,7 @@ h5
 
 
 
-@media screen and (max-width:768px)
+@media only screen and (max-width:768px)
 {
     body
     {
@@ -1458,14 +1465,10 @@ h5
         align-items: center;
         align-content: center;
         width: 400px;
-        padding: 0px;
-        margin: 0px;
     }
     
     .maincontainer
     {
-        display: flex;
-        flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         align-content: center;
@@ -1476,137 +1479,105 @@ h5
    
     .header
     {
-        display: flex;
+        position: relative;
         flex-direction: column;
-        justify-content: center;        align-items: center;
+        justify-content: center;
         align-content: center;
         gap: 24px;
         width: 400px;
         height: 168px;
         padding-top: 24px;
-        margin: 0px;
     }
 
     .logo
     {
-        display: flex;
-        flex-direction: row;
         justify-content: center;
-        align-items: center;
         width: 96px;
         height: 48px;
         padding-right: 24px;
-        margin: 0px;
     }
 
     .navi-links
     {
-        display: flex;
-        flex-direction: row;
         justify-content: flex-start;
-        align-items: center;
         align-content: space-around;
         width: 400px;
-        height: 48px;
-        padding: 0px;
-        margin: 0px;
     }
 
     .navi-links li
     {
-        display: flex;
-        flex-direction: row;
         justify-content: flex-start;
-        align-items: center;
         align-content: center;
         width: 144px;
         height: 24px;
-        border-top: hidden;
+        border-top: none;
         border-bottom: 4px solid  #F2F2F2; 
     }
 
-    .navi-links li a:hover
+    .nav-links li #accom
+    {
+        border-top: none;
+        border-bottom: 4px solid  #F2F2F2;
+    }
+
+    .nav-links li #activ
+    {
+        border-top: none;
+        border-bottom: 4px solid  #F2F2F2;
+    }
+
+    .navi-links li:hover
     {   
-        border-top: hidden;
+        border-top: none;
         border-bottom: 4px solid #0065FC;
     }
 
-    .navi-links li a:active
+    .navi-links li:active
     {   
-        border-top: hidden;
+        border-top: none;
         border-bottom: 4px solid #0065FC;
     }
-
 
     .top
     {
-        display: flex;
-        flex-direction: column;
+        position: relative;
         justify-content: center;
         align-items: center;        align-content: center;
         width: 400px;
         height: 576px;
-        padding: 0px;
-        margin: 0px;
     }
 
     .top-heading
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
         align-content: center;
-        width: 240px ; 
-    }
-
-    h3
-    {
-        font-size: 20px;
-    }
-
-    h5
-    {
-        font-size: 16px;
+        width: 240px;
     }
      
     .search-box
     {
-        display: flex;
-        flex-direction: row;
         justify-content: center;
-        align-items: center;        align-content: center;
+        align-items: center;
         width: 288px;
         height: 48px;
     }
 
     .fa-location-dot 
     {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;        align-content: center;
         width: 36px;
         height: 36px;
     }
 
     .input
     {
-        display: flex;
-        flex-direction: row;
         justify-content: center;
-        align-items: center;
         align-content: center;
-        width: 192px;
         height: 36px;
     }
 
     .button1
     {
         position: relative;
-        width: 10px;
-        padding: 0px;
-        margin: 0px;
         visibility: hidden;
     }
 
@@ -1615,64 +1586,46 @@ h5
         position: relative;
         width: 36px;
         height: 36px;
-        padding: 0px;
-        margin: 0px;
         background: #0065FC;
-        border-style: none;
-        border-radius: 10px;
         visibility: visible;
     }
 
     .fa-magnifying-glass
     {
         width: 36px;
+        height: 36px;
         margin-left: 0px;
-        color: white;        border-style: none;
-        border-radius: 10px;
         text-align: center;
         visibility: visible;
     }
 
     .filters
     {
-        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
         align-content: flex-start;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         width: 288px;
         height: 240px;
     }
 
     .preview
     {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
         flex-wrap:nowrap;
-        width: 48px;
         height: 24px;
     }
 
     .buttons
     {
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
         align-content: space-around;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         width: 288px;
         height: 144px;
     }
 
     .button2
     {
-        font-size: 16px;
-        width: 144px;
-        height: 48px; 
         border: 2px solid #d8d6d6;
     }
 
@@ -1684,11 +1637,7 @@ h5
 
     .button4
     {
-        font-size: 16px;
-        width: 144px;
-        height: 48px;
         border: 2px solid #d8d6d6;
-
     }
 
     .fa-heart
@@ -1699,9 +1648,7 @@ h5
 
     .button3
     {
-        font-size: 16px;
         width: 192px;
-        height: 48px;
         border: 2px solid #d8d6d6;
     }
 
@@ -1713,9 +1660,7 @@ h5
     
     .button5
     {
-        font-size: 16px;
         width: 168px;
-        height: 48px;
         border: 2px solid #d8d6d6;
     }
 
@@ -1727,40 +1672,37 @@ h5
 
     .info
     {
-        display: flex;
-        flex-direction: row;
         justify-content: flex-start;
         align-content: center;
-        font-size: 16px;
         width: 240px;
         height: 48px;
         padding-bottom: 20px;
     }
 
-
-    .middle
+    .more
     {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        align-content: space-around;
-        width: 400px;
+        width: 216px;
     }
 
+    .middle
+    {   
+        position: relative;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: space-around;
+        width: 400px;
+        height: 1440px;
+    }
 
     .right
     {
-        display: flex;
-        flex-direction: column;
+        position: relative;
         justify-content: center;
-        align-items: center;
         align-content: space-around;
         width: 400px;
-        height: 768px;
+        height: 480px;
         padding: 0px;
         margin: 0px;
-        background: #F2F2F2;
         border-radius: 0px;
     }
 
@@ -1771,24 +1713,19 @@ h5
 
     .card3
     {
-        margin-left: 10px;
-        margin-right: 10px;
         width: 360px;
         height: 144px;
-    }
-
-    .star-rating
-    {
-        margin-top:40px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .left
     {
-        display: flex;
-        flex-direction: column;
+        position: relative;
         justify-content: center;
         align-content: center;
         width: 400px;
+        height: 960px;
         margin-bottom: 0px;
         background: none;
         border-radius: 0px;
@@ -1797,28 +1734,23 @@ h5
     .accom
     {
         width: 240px;
-        font-size: 20px;
         padding-top: 20px;
         margin-left: 20px;
         margin-top: 20px;
     }
 
-    .row1
+    .card-box1
     {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         width: 400px;
-        margin-bottom: 0px;
-        background: none;
-        border-radius: 0px;
+        height: 480px;
     }
 
     .card1
     {
         width: 336px;
-        height: 192px;
         margin: 10px;
         margin-bottom: 20px;
     }
@@ -1834,22 +1766,18 @@ h5
      margin-top: 10px;
     }
 
-    .row2
+    .card-box2
     {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         width: 400px;
-        margin-bottom: 0px;
-        background: none;
-        border-radius: 0px;
+        height: 480px;
     }
     
     .card2
     {
         width: 336px;
-        height: 192px;
         margin: 10px;
         margin-bottom: 20px;
     }
@@ -1862,42 +1790,30 @@ h5
 
     .card2-info
     {
-     margin-top: 10px;
+        margin-top: 10px;
     }
-
 
     .show
     {
         margin-left: 10px;
-        font-size: 16px;
     }
 
     .activ
     {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-end;
-        height: 24px;
-        font-size: 20px;
         padding-bottom: 0px;
         padding-left: 36px;
-        margin: 0px;
     }
 
     .bottom
     {
-        display: flex;
-        flex-direction: column;
+        position: relative;
         justify-content: center;
         align-items: center;
-        align-content: space-around;
-        width: 360px;
-        height: auto;
+        width: 400px;
+        height: 960px;
         padding-top: 0px;
         padding-bottom: 48px;
         padding-left: 36px;
-        margin: 0px;
     }
 
     .card4 
@@ -1914,12 +1830,12 @@ h5
 
     .card4-info
     {
-     margin-top: 10px;
+        margin-top: 10px;
     }
 
     .margin1
     {
-        width: 400px;
+        width: 336px;
     }
 
     .card5 
@@ -1958,7 +1874,7 @@ h5
 
     .margin2
     {
-        width: 400px;
+        width: 336px;
     }
 
     .card6 
@@ -1980,28 +1896,22 @@ h5
     
     .footer 
     {
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-content: center;
         width: 400px;
-        height: auto;
+        height: 384px;
         padding-top: 48px;
         padding-bottom: 48px;
-        margin: 0px;
     }
 
     .footcontainer
-    {        
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+    {
         align-items: baseline;
         align-content: center;
         width: 288px;
         height: 72px;
         padding: 0px;
-        margin: 0px;
     }
    
 }
