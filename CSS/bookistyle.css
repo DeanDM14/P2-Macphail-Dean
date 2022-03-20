@@ -1,7 +1,6 @@
 body
 {
-    width: 1536px;
-    max-height: none;
+    width: auto;
     padding: 0px;
     margin: 0px;
     font-family:'Raleway', sans-serif;
@@ -15,14 +14,15 @@ body
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     align-content: space-between;
     gap: 24px;
-    width: 1440px;
-    height: 100%;
+    width: 100%;
+    height: auto;
     padding: 0px;
-    margin-right: 24px;
-    margin-left: 48px;
+    margin-right: 0px;
+    margin-left: 24px;
 }
 
 .header
@@ -77,12 +77,6 @@ body
 
 .nav-links li
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: space-between;
-    flex-wrap: nowrap;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -92,12 +86,8 @@ body
 
 .nav-links li #accom
 {
-    display: flex;
-    flex-direction: column;
     width: 120px;
     height: 24px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -106,12 +96,8 @@ body
 
 .nav-links li #activ
 {
-    display: flex;
-    flex-direction: column;
     width: 72px;
     height: 24px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -120,7 +106,6 @@ body
 
 .nav-links li:hover
 {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -133,7 +118,6 @@ body
 
 .nav-links li:active
 {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 42px;
@@ -198,7 +182,7 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     align-content: center;
     flex-wrap: nowrap;
     width: 384px;
@@ -262,7 +246,7 @@ h5
     border-radius: 0 15px 15px 0;
 }
 
-.incbutton
+.iconbutton
 {
     display: flex;
     justify-content: center;
@@ -272,9 +256,7 @@ h5
     height: 0px;
     padding: 0px;
     margin: 0px;
-    color: white;
     border-style: none;
-    border-radius: 10px;
     visibility: hidden;
 }
 
@@ -288,9 +270,7 @@ h5
     height: 0px;
     padding: 0px;
     margin: 0px;
-    color: white;
     border-style: none;
-    border-radius: 10px;
     visibility: hidden;
 }
 
@@ -317,7 +297,7 @@ h5
     flex-basis: 7%;
     width: 48px;
     height: 48px;
-    padding-right: 36px;
+    padding-right: 24px;
     padding-left: 0px;
     margin: 0px;
     font-size: 16px;
@@ -348,8 +328,7 @@ h5
     align-content: space-between;
     flex-basis: 21%;
     flex-wrap: nowrap;
-    gap: 14px;
-    width: 144px;
+    width: 160px;
     height: 48px;
     padding-right: 18px;
     padding-left: 0px;
@@ -357,7 +336,7 @@ h5
     font-size: 16px;
     font-weight: 600;
     background-color: white;
-    border: 3px solid #d8d6d6;
+    border: 2px solid #d8d6d6;
     border-radius: 32px;
 }
 
@@ -366,8 +345,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -392,7 +371,6 @@ h5
     align-items: center;
     flex-basis: 27%;
     flex-wrap: nowrap;
-    gap: 14px;
     width: 240px;
     height: 48px;
     padding-right: 18px;
@@ -401,7 +379,7 @@ h5
     font-size: 16px;
     font-weight: 600;
     background-color: white;
-    border: 3px solid #d8d6d6;
+    border: 2px solid #d8d6d6;
     border-radius: 32px;
 }
 
@@ -410,8 +388,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -444,7 +422,7 @@ h5
     font-size: 16px;
     font-weight: 600;
     background-color: white;
-    border: 3px solid #d8d6d6;
+    border: 2px solid #d8d6d6;
     border-radius: 32px;
 }
 
@@ -453,8 +431,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -487,7 +465,7 @@ h5
     font-size: 16px;
     font-weight: 600;
     background-color: white;
-    border: 3px solid #d8d6d6;
+    border: 2px solid #d8d6d6;
     border-radius: 32px;
 }
 
@@ -496,8 +474,8 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     padding: 0px;
     margin: 0px;
     color: #0065FC;
@@ -1367,7 +1345,7 @@ h5
     align-items: center;
     flex-wrap: nowrap;
     gap: 96px;
-    width: 1440px;
+    width: 1400px;
     height: 240px;
     padding: 0px;
     margin: 0px;
@@ -1455,7 +1433,7 @@ h5
 
 
 
-@media only screen and (max-width:768px)
+@media screen and (max-width: 768px)
 {
     body
     {
@@ -1464,7 +1442,7 @@ h5
         justify-content: center;
         align-items: center;
         align-content: center;
-        width: 400px;
+        width: 100%;
     }
     
     .maincontainer
@@ -1587,6 +1565,7 @@ h5
         width: 36px;
         height: 36px;
         background: #0065FC;
+        border-radius: 10px;
         visibility: visible;
     }
 
@@ -1596,6 +1575,7 @@ h5
         height: 36px;
         margin-left: 0px;
         text-align: center;
+        border-radius: 10px;
         visibility: visible;
     }
 
