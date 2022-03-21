@@ -1,8 +1,6 @@
 body
 {
     width: auto;
-    padding: 0px;
-    margin: 0px;
     font-family:'Raleway', sans-serif;
     font-size: 21px;
     color: black;
@@ -200,7 +198,7 @@ h5
     justify-content: center;
     align-items: center;
     align-content: center;
-    flex-basis: 13%;
+    flex-basis: 14%;
     width: 48px;
     height: 48px;
     padding: 0px;
@@ -251,12 +249,14 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 0%;
-    width: 0px;
-    height: 0px;
+    flex-basis: 14%;
+    width: 48px;
+    height: 48px;
     padding: 0px;
     margin: 0px;
+    background-color: #0065FC;
     border-style: none;
+    border-radius: 15px;
     visibility: hidden;
 }
 
@@ -265,12 +265,12 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 0%;
-    width: 0px;
-    height: 0px;
+    flex-basis: 14%;
+    width: 24px;
+    height: 24px;
     padding: 0px;
     margin: 0px;
-    border-style: none;
+    color: white;
     visibility: hidden;
 }
 
@@ -504,7 +504,6 @@ h5
     height: 60px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
 }
 
 .fa-info
@@ -688,8 +687,6 @@ h5
     flex-wrap: nowrap;
     width: 210px;
     height: 18px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -702,6 +699,7 @@ h5
     align-items: flex-start;
     flex-basis: 28%;
     flex-wrap: nowrap;
+    gap: 6px;
     width: 144px;
     height: 18px;
     padding: 0px;
@@ -822,48 +820,7 @@ h5
     flex-wrap: nowrap;
     width: 168px;
     height: 18px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
-}
-
-.description
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-basis: 28%;
-    flex-wrap: nowrap;
-    width: 144px;
-    height: 18px;
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-}
-
-.star-rating
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-basis: 28%;
-    flex-wrap: nowrap;
-    width: 60px;
-    height: 18px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.checked
-{
-    color: #0065FC;
-}
-
-.unchecked
-{
-    color: #F2F2F2;
 }
 
 .card2:hover
@@ -881,10 +838,8 @@ h5
     align-items: flex-end;
     flex-wrap: nowrap;
     width: 744px;
-    height: 24px;
     padding-bottom: 36px;
     padding-left: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -902,7 +857,6 @@ h5
     width: 384px;
     height: 576px;
     padding-bottom: 24px;
-    padding-left: 24px;
     margin-left: 24px;
     background-color: #F2F2F2;
     border-radius: 25px;
@@ -938,7 +892,7 @@ h5
 }
 
 .fa-chart-line
-{
+ {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -1007,36 +961,8 @@ h5
 {
     width: 168px;
     height: 18px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
 }
-
-.description
-{
-    width: 144px;
-    height: 18px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.star-rating
-{
-    width: 60px;
-    height: 18px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.checked
-{
-    color: #0065FC;
-}
-
-.unchecked
-{
-    color: #F2F2F2;
-}i
 
 .card3:hover
 {
@@ -1051,9 +977,9 @@ h5
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 384px;
+    width: 1344px;
     height: 30px;
-    padding: 0px;
+    padding-top: 24px;
     margin: 0px;
 }
 
@@ -1062,13 +988,13 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: nowrap;
     width: 288px;
     height: 24px;
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -1130,9 +1056,6 @@ h5
 .card4-title
 {
     width: 264px;
-    height: 24px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -1198,9 +1121,6 @@ h5
 .card5-title
 {
     width: 264px;
-    height: 24px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -1253,9 +1173,6 @@ h5
 .card7-title
 {
     width: 264px;
-    height: 24px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -1321,9 +1238,6 @@ h5
 .card6-title
 {
     width: 264px;
-    height: 24px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -1345,7 +1259,7 @@ h5
     align-items: center;
     flex-wrap: nowrap;
     gap: 96px;
-    width: 1400px;
+    width: 1440px;
     height: 240px;
     padding: 0px;
     margin: 0px;
@@ -1378,8 +1292,6 @@ h5
     flex-wrap: nowrap;
     width: 192px;
     height: 48px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     list-style: none;
 }
@@ -1393,8 +1305,6 @@ h5
     flex-wrap: nowrap;
     width: 168px;
     height: 48px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     list-style: none;
 }
@@ -1408,8 +1318,6 @@ h5
     flex-wrap: nowrap;
     width: 72px;
     height: 48px;
-    padding: 0px;
-    margin: 0px;
     font-size: 16px;
     list-style: none;
 }
