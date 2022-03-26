@@ -2,6 +2,7 @@ body
 {
     width: auto;
     font-family:'Raleway', sans-serif;
+    margin: 0px;
     font-size: 21px;
     color: black;
 }
@@ -162,7 +163,7 @@ h3
     padding: 0px;
     margin: 0px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h5
@@ -212,10 +213,11 @@ h5
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    flex-basis: 62%;
-    width: 192px;
+    flex-basis: 70%;
+    width: 264px;
     height: 45px;
     padding-left: 14px;
     margin: 0px;
@@ -223,6 +225,36 @@ h5
     font-weight: 600;
     border: 1px solid #F2F2F2;
     outline: none;
+}
+
+.iconbutton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0%;
+    width: 0px;
+    height: 48px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #0065FC;
+    border-style: none;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+.fa-magnifying-glass
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0%;
+    width: 0px;
+    height: 24px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    visibility: hidden;
 }
 
 .button1
@@ -242,36 +274,6 @@ h5
     background-color: #0065FC;
     border-style: none;
     border-radius: 0 15px 15px 0;
-}
-
-.iconbutton
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 14%;
-    width: 48px;
-    height: 48px;
-    padding: 0px;
-    margin: 0px;
-    background-color: #0065FC;
-    border-style: none;
-    border-radius: 15px;
-    visibility: hidden;
-}
-
-.fa-magnifying-glass
-{   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 14%;
-    width: 24px;
-    height: 24px;
-    padding: 0px;
-    margin: 0px;
-    color: white;
-    visibility: hidden;
 }
 
 .filters
@@ -516,9 +518,10 @@ h5
     height: 24px;
     padding: 0px;
     margin: 0px;
+    font-size: 16px;
     color: #0065FC;
     border: 1px solid #d8d6d6;
-    border-radius: 30px;
+    border-radius: 38px;
 }
 
 .more
@@ -530,7 +533,7 @@ h5
     flex-wrap: wrap;
     width: 384px;
     height: 24px;
-    padding: 0px;
+    padding-left: 16px;
     margin: 0px;
     font-size: 16px;
     font-weight: 400;
@@ -639,8 +642,11 @@ h5
     padding: 0px;
     margin: 0px;
     background-color: white;
+    border: white;
+    border-style: solid;
+    border-width: 4px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px #d6d1d1;
+    box-shadow: 0px 5px 10px 0px #d6d1d1;
 }
 
 .card1-image
@@ -656,9 +662,6 @@ h5
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border: white;
-    border-style: solid;
-    border-width: 4px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -771,8 +774,11 @@ h5
     padding: 0px;
     margin: 0px;
     background-color: white;
+    border: white;
+    border-style: solid;
+    border-width: 4px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px #d6d1d1;
+    box-shadow: 0px 5px 10px 0px #d6d1d1;
 }
 
 .card2-image
@@ -788,9 +794,6 @@ h5
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border: white;
-    border-style: solid;
-    border-width: 4px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -1255,10 +1258,10 @@ h5
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 96px;
+    gap: 144px;
     width: 1440px;
     height: 240px;
     padding: 0px;
@@ -1277,13 +1280,13 @@ h5
     align-content: space-around;
     flex-wrap: nowrap;
     gap: 12px;
-    width: 384px;
+    width: 288px;
     height: 144px;
-    padding-left: 48px;
+    padding-left: 30px;
     margin: 0px;
 }
 
-.footheader1
+.footheader
 {
     display: flex;
     flex-direction: row;
@@ -1291,33 +1294,7 @@ h5
     align-items: flex-start;
     flex-wrap: nowrap;
     width: 192px;
-    height: 48px;
-    font-size: 16px;
-    list-style: none;
-}
-
-.footheader2
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    width: 168px;
-    height: 48px;
-    font-size: 16px;
-    list-style: none;
-}
-
-.footheader3
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    width: 72px;
-    height: 48px;
+    height: 30px;
     font-size: 16px;
     list-style: none;
 }
@@ -1345,27 +1322,19 @@ h5
 {
     body
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        width: 100%;
+        margin: 0px;
     }
     
     .maincontainer
     {
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: center;
         align-content: center;
         width: 400px;
-        padding: 0px;
         margin: 0px;
     }
    
     .header
     {
-        position: relative;
         flex-direction: column;
         justify-content: center;
         align-content: center;
@@ -1380,105 +1349,107 @@ h5
         justify-content: center;
         width: 96px;
         height: 48px;
-        padding-right: 24px;
+        padding-left: 24px;
     }
 
-    .navi-links
+    .nav-links
     {
-        justify-content: flex-start;
+        justify-content: space-evenly;
         align-content: space-around;
+        gap: 48px;
         width: 400px;
+        border-top: hidden;
+        border-bottom: 4px solid  #F2F2F2;
     }
 
-    .navi-links li
+    .nav-links li
     {
-        justify-content: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
         align-content: center;
-        width: 144px;
+        width: 200px;
         height: 24px;
-        border-top: none;
-        border-bottom: 4px solid  #F2F2F2; 
-    }
+        margin-left: 24px;
+}
 
-    .nav-links li #accom
-    {
-        border-top: none;
-        border-bottom: 4px solid  #F2F2F2;
-    }
-
-    .nav-links li #activ
-    {
-        border-top: none;
-        border-bottom: 4px solid  #F2F2F2;
-    }
-
-    .navi-links li:hover
+    .nav-links li:hover
     {   
-        border-top: none;
+        padding-top: 24px;
+        padding-bottom: 10px;
+        border-top: hidden;
         border-bottom: 4px solid #0065FC;
     }
 
-    .navi-links li:active
+    .nav-links li:active
     {   
-        border-top: none;
+        border-top: hidden;
         border-bottom: 4px solid #0065FC;
     }
 
     .top
     {
-        position: relative;
-        justify-content: center;
-        align-items: center;        align-content: center;
+        align-items: flex-start;        align-content: flex-start;
         width: 400px;
-        height: 576px;
+        height: 504px;
+        padding-left: 24px;
     }
 
     .top-heading
     {
-        align-items: center;
-        align-content: center;
-        width: 240px;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 336px;
+        height: 84px;
     }
-     
+    
+    h3
+    {
+        width: 336px;
+        height: 48px;
+        font-size: 22px;
+    }
+
     .search-box
     {
-        justify-content: center;
         align-items: center;
-        width: 288px;
+        width: 360px;
         height: 48px;
     }
 
     .fa-location-dot 
     {
-        width: 36px;
-        height: 36px;
+        flex-basis: 15%;
     }
 
     .input
     {
-        justify-content: center;
-        align-content: center;
-        height: 36px;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-basis: 75%;
+        width: 312px;
+        height: 46px;
+        padding-left: 21px;
+        font-size: 18px;
     }
 
     .button1
     {
-        position: relative;
+        flex-basis: 0%;
+        width: 0px;
         visibility: hidden;
     }
 
-    .icnbutton
+    .iconbutton
     {
-        position: relative;
-        width: 36px;
-        height: 36px;
-        background: #0065FC;
-        border-radius: 10px;
+        flex-basis: 18%;
+        width: 48px;
         visibility: visible;
     }
 
     .fa-magnifying-glass
     {
+        flex-basis: 33%;
         width: 36px;
         height: 36px;
         margin-left: 0px;
@@ -1490,141 +1461,153 @@ h5
     .filters
     {
         flex-direction: column;
-        align-content: flex-start;
+        align-items: flex-start;
         flex-wrap: wrap;
-        width: 288px;
+        width: 360px;
         height: 240px;
     }
 
     .preview
     {
         flex-wrap:nowrap;
-        height: 24px;
+        width: 72px;
+        padding: 0px;
+        font-size: 18px;
     }
 
     .buttons
     {
         flex-direction: column;
-        justify-content: flex-start;
-        align-content: space-around;
         flex-wrap: wrap;
-        width: 288px;
-        height: 144px;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 18px;
+        width: 360px;
+        height: 180px;
     }
 
     .button2
     {
-        border: 2px solid #d8d6d6;
-    }
-
-    .fa-money-bill-wave
-    {
-        width: 48px;
-        height: 48px;
-    }
-
-    .button4
-    {
-        border: 2px solid #d8d6d6;
-    }
-
-    .fa-heart
-    {
-        width: 48px;
-        height: 48px;
+        order: 1;
+        width: 150px;
     }
 
     .button3
     {
+        order: 2;
+        flex-basis: 21%;
         width: 192px;
-        border: 2px solid #d8d6d6;
-    }
-
-    .fa-child
-    {
-        width: 48px;
-        height: 48px;
+        padding-right: 16px;
     }
     
-    .button5
+    .button4
     {
+        position: relative;
+        right: 60px;
+        order: 4;
+        flex-basis: 21%;
         width: 168px;
-        border: 2px solid #d8d6d6;
+        padding-right: 14px;
     }
 
-    .fa-dog
+    .button5
     {
-        width: 48px;
-        height: 48px;
+        order: 3;        flex-basis: 21%;
+        width: 216px;
+        padding-right: 55px;
     }
 
     .info
     {
-        justify-content: flex-start;
-        align-content: center;
-        width: 240px;
+        align-content: space-around;
+        width: 336px;
         height: 48px;
-        padding-bottom: 20px;
     }
 
     .more
     {
-        width: 216px;
+        width: 312px;
+        height: 48px;
     }
 
     .middle
     {   
-        position: relative;
         flex-direction: column-reverse;
         justify-content: center;
         align-content: space-around;
+        gap: 24px;
         width: 400px;
-        height: 1440px;
+        height: 2112px;
     }
 
     .right
-    {
-        position: relative;
-        justify-content: center;
-        align-content: space-around;
+    {   
+        justify-content: space-evenly;
+        flex-basis: 32%;
+        gap: 4px;
         width: 400px;
-        height: 480px;
+        height: 672px;
         padding: 0px;
         margin: 0px;
         border-radius: 0px;
     }
 
+    .right-heading
+    {
+        align-items: flex-end;
+        width: 360px;
+    }
+
     .most
     {
-        margin-left: 10px;
+        width: 168px;
+        font-size: 24px;
     }
 
     .card3
     {
+        flex-basis: 23%;
         width: 360px;
-        height: 144px;
+        height: 156px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
+    .card3-image
+    {
+        flex-basis: 45%;
+        width: 144px;
+        height: 144px;
+        border-width: 6px;
+    }
+
     .left
     {
-        position: relative;
         justify-content: center;
         align-content: center;
+        flex-basis: 67%;
+        gap: 18px;
         width: 400px;
-        height: 960px;
-        margin-bottom: 0px;
+        height: 1416px;
+        padding: 0px;
+        margin: 0px;
         background: none;
         border-radius: 0px;
     }
 
+    .left-heading
+    {
+        width: 400px;
+        height: 60px;
+    }
+
     .accom
     {
-        width: 240px;
-        padding-top: 20px;
-        margin-left: 20px;
-        margin-top: 20px;
+        width: 400px;
+        padding-top: 24px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        font-size: 23px;
     }
 
     .card-box1
@@ -1632,15 +1615,15 @@ h5
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        gap: 2px;
         width: 400px;
-        height: 480px;
+        height: 648px;
     }
 
     .card1
     {
         width: 336px;
         margin: 10px;
-        margin-bottom: 20px;
     }
 
     .card1-image
@@ -1651,7 +1634,9 @@ h5
 
     .card1-info
     {
-     margin-top: 10px;
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .card-box2
@@ -1659,15 +1644,15 @@ h5
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        gap: 2px;
         width: 400px;
-        height: 480px;
+        height: 648px;
     }
     
     .card2
     {
         width: 336px;
         margin: 10px;
-        margin-bottom: 20px;
     }
 
     .card2-image
@@ -1678,12 +1663,18 @@ h5
 
     .card2-info
     {
-        margin-top: 10px;
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .show
     {
-        margin-left: 10px;
+        align-items: flex-end;
+        width: 352px;
+        padding-left: 24px;
+        padding-bottom: 0px;
+        font-size: 20px;
     }
 
     .activ
@@ -1692,16 +1683,20 @@ h5
         padding-left: 36px;
     }
 
+    .bottom-heading
+    {
+        width: 400px;
+    }
+
     .bottom
     {
-        position: relative;
         justify-content: center;
         align-items: center;
+        gap: 24px;
         width: 400px;
-        height: 960px;
+        height: 1344px;
         padding-top: 0px;
         padding-bottom: 48px;
-        padding-left: 36px;
     }
 
     .card4 
@@ -1716,9 +1711,9 @@ h5
         height: 144px;
     }
 
-    .card4-info
+    .card4-title
     {
-        margin-top: 10px;
+        height: 24px;
     }
 
     .margin1
@@ -1738,9 +1733,9 @@ h5
         height: 144px;
     }
 
-    .card5-info
+    .card5-title
     {
-        margin-top: 10px;
+        height: 24px;
     }
 
     .card7 
@@ -1755,9 +1750,9 @@ h5
         height: 144px;
     }
     
-    .card7-info
+    .card7-title
     {
-        margin-top: 10px;
+        height: 24px;
     }
 
     .margin2
@@ -1777,9 +1772,9 @@ h5
         height: 144px;
     }
     
-    .card6-info
+    .card6-title
     {
-        margin-top: 10px;
+        height: 24px;
     }
     
     .footer 
@@ -1787,19 +1782,23 @@ h5
         flex-direction: column;
         justify-content: flex-start;
         align-content: center;
+        gap: 48px;
         width: 400px;
-        height: 384px;
+        height: 528px;
         padding-top: 48px;
-        padding-bottom: 48px;
     }
 
     .footcontainer
     {
         align-items: baseline;
         align-content: center;
-        width: 288px;
-        height: 72px;
+        width: 336px;
+        height: 120px;
         padding: 0px;
     }
-   
+
+    .footnote
+    {
+        font-size: 16px;
+    }
 }
