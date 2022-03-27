@@ -1,6 +1,6 @@
 body
 {
-    width: auto;
+    width: 100%;
     font-family:'Raleway', sans-serif;
     margin: 0px;
     font-size: 21px;
@@ -17,7 +17,7 @@ body
     align-items: center;
     align-content: space-between;
     gap: 24px;
-    width: 100%;
+    max-width: 1440px;
     height: auto;
     padding: 0px;
     margin-right: 0px;
@@ -168,7 +168,7 @@ h3
 
 h5
 {
-    width: 192px;
+    width: 175px;
     height: 18px;
     padding: 0px;
     margin: 0px;
@@ -459,7 +459,7 @@ h5
     align-items: center;
     flex-basis: 25%;
     flex-wrap: nowrap;
-    width: 192px;
+    width: 175px;
     height: 48px;
     padding-right: 18px;
     padding-left: 0px;
@@ -638,7 +638,7 @@ h5
     align-items: center;
     flex-wrap: nowrap;
     width: 240px;
-    height: 192px;
+    height: 175px;
     padding: 0px;
     margin: 0px;
     background-color: white;
@@ -674,7 +674,7 @@ h5
     flex-basis: 40%;
     flex-wrap: nowrap;
     gap: 3px;
-    width: 192px;
+    width: 175px;
     height: 72px;
     padding: 0px;
     margin: 0px;
@@ -770,7 +770,7 @@ h5
     align-content: space-between;
     flex-wrap: nowrap;
     width: 240px;
-    height: 192px;
+    height: 175px;
     padding: 0px;
     margin: 0px;
     background-color: white;
@@ -806,7 +806,7 @@ h5
     flex-basis: 40%;
     flex-wrap: nowrap;
     gap: 3px;
-    width: 192px;
+    width: 175px;
     height: 72px;
     padding: 0px;
     margin: 0px;
@@ -954,7 +954,7 @@ h5
     align-content: space-around;
     flex-basis: 60%;
     gap: 24px;
-    width: 192px;
+    width: 175px;
     height: 114px;
     padding: 0px;
     margin: 0px;
@@ -1052,15 +1052,12 @@ h5
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .card4-title
 {
     width: 264px;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .card4:hover
@@ -1117,15 +1114,12 @@ h5
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .card5-title
 {
     width: 264px;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .card5:hover
@@ -1151,7 +1145,7 @@ h5
 .card7-image
 {
     width: 304px;
-    height: 120px;
+    height: 112px;
     object-fit: cover;
     padding: 0px;
     margin: 0px;
@@ -1169,15 +1163,12 @@ h5
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .card7-title
 {
     width: 264px;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .card7:hover
@@ -1234,15 +1225,12 @@ h5
     height: 48px;
     padding: 0px;
     margin: 0px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .card6-title
 {
     width: 264px;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .card6:hover
@@ -1293,7 +1281,7 @@ h5
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
-    width: 192px;
+    width: 175px;
     height: 30px;
     font-size: 16px;
     list-style: none;
@@ -1315,10 +1303,123 @@ h5
     text-decoration: none;
 }    
 
-
-
-
 @media screen and (max-width: 768px)
+{
+    .maincontainer
+    {
+        max-width: 768px;
+        margin-left: 12px;
+    }
+    
+    .header
+    {
+        width: 756px;
+    }
+
+    .top
+    {
+        width: 756px;
+    }
+
+    .filters
+    {
+        width: 756px;
+    }
+
+    .buttons
+    {
+        width: 636px;
+    }
+
+    .middle
+    {
+        flex-direction: column;
+        width: 756px;
+        height: 1200px;
+    }
+
+    .left
+    {
+        flex-basis: 50%;
+        width: 756px;
+        height: 576px;
+        padding: 0px;
+        margin-right: 0px;
+        margin-bottom: 24px;
+    }
+
+    .accom
+    {
+        padding-left: 24px;
+    }
+
+    .card-box1
+    {
+        gap: 14px;
+        width: 744px;
+        height: 240px;
+    }
+
+    .card-box2
+    {
+        gap: 14px;
+        width: 744px;
+        height: 240px;
+    }
+
+    .show
+    {
+        padding-left: 24px;
+    }
+
+    .right
+    {
+        flex-basis: 50%;
+        width: 384px;
+        height: 576px;
+        padding: 0px;
+        margin-top: 24px;
+        margin-left: 0px;
+    }
+
+    .bottom-heading
+    {
+        width: 708px;
+        padding-left: 48px;
+    }
+
+    .bottom
+    {
+        width: 756px;
+        height: 960px;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    .margin1
+    {
+        padding-bottom: 42px;
+    }
+
+    .margin2
+    {
+        padding-bottom: 42px;
+    }
+
+    .footer
+    {
+        gap: 14px;
+        width: 768px;
+    }
+    
+    .footcontainer
+    {
+        width: 216px;
+    }
+}
+
+
+@media screen and (max-width: 500px)
 {
     body
     {
@@ -1370,7 +1471,7 @@ h5
         width: 200px;
         height: 24px;
         margin-left: 24px;
-}
+    }
 
     .nav-links li:hover
     {   
@@ -1388,7 +1489,8 @@ h5
 
     .top
     {
-        align-items: flex-start;        align-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
         width: 400px;
         height: 504px;
         padding-left: 24px;
@@ -1496,7 +1598,7 @@ h5
     {
         order: 2;
         flex-basis: 21%;
-        width: 192px;
+        width: 175px;
         padding-right: 16px;
     }
     
@@ -1512,7 +1614,8 @@ h5
 
     .button5
     {
-        order: 3;        flex-basis: 21%;
+        order: 3;
+        flex-basis: 21%;
         width: 216px;
         padding-right: 55px;
     }
@@ -1702,7 +1805,7 @@ h5
     .card4 
     {
         width: 336px;
-        height: 192px;
+        height: 175px;
     }
 
     .card4-image
@@ -1724,7 +1827,7 @@ h5
     .card5 
     {
         width: 336px;
-        height: 192px;
+        height: 175px;
     }
 
     .card5-image
@@ -1741,7 +1844,7 @@ h5
     .card7 
     {
         width: 336px;
-        height: 192px;
+        height: 175px;
     }
 
     .card7-image
@@ -1763,7 +1866,7 @@ h5
     .card6 
     {
         width: 336px;
-        height: 192px;
+        height: 175px;
     }
 
     .card6-image
