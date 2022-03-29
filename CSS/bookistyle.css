@@ -9,7 +9,8 @@ body
 
 .maincontainer
 {
-    position: static;
+    position: relative;
+    left: 48px;
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
@@ -17,11 +18,10 @@ body
     align-items: center;
     align-content: space-between;
     gap: 24px;
-    max-width: 1440px;
+    width: 1248px;
     height: auto;
     padding: 0px;
-    margin-right: 0px;
-    margin-left: 24px;
+    margin: 0px;
 }
 
 .header
@@ -33,7 +33,7 @@ body
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    width: 1344px;
+    width: 1248px;
     height: 96px;
     padding: 0px;
     margin: 0px;
@@ -137,7 +137,7 @@ body
     align-items: baseline;
     align-content: space-between;
     gap: 24px;
-    width: 1344px;
+    width: 1248px;
     height: 288px;
     padding: 0px;
     margin: 0px;
@@ -549,7 +549,7 @@ h5
     align-items: center;
     flex-wrap: nowrap;
     gap: 0px;
-    width: 1344px;
+    width: 1248px;
     height: 576px;
     padding: 0px;
     margin: 0px;
@@ -579,10 +579,10 @@ h5
     align-content: space-around;
     flex-basis: 66%;
     flex-wrap: nowrap;
-    gap: 28px;
+    gap: 24px;
     width: 768px;
     height: 576px;
-    padding-right: 24px;
+    padding: 0px;
     margin-right: 24px;
     background-color: #F2F2F2;
     border-radius: 25px;
@@ -623,8 +623,8 @@ h5
     align-content: space-around;
     flex-grow: 1;
     flex-wrap: nowrap;
-    gap: 28px;
-    width: 770px;
+    gap: 24px;
+    width: 768px;
     height: 216px;
     padding: 0px;
     margin: 0px;
@@ -637,7 +637,7 @@ h5
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    width: 240px;
+    width: 224px;
     height: 175px;
     padding: 0px;
     margin: 0px;
@@ -656,13 +656,19 @@ h5
     justify-content: center;
     align-items: flex-start;
     flex-basis: 60%;
-    width: 230px;
-    height: 96px;
-    object-fit: cover;
+    width: 224px;
+    height: 105px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card1-image img
+{
+    object-fit: cover;
+    width: 224px;
+    height: 105px;
 }
 
 .card1-info
@@ -754,8 +760,8 @@ h5
     align-content: space-around;
     flex-grow: 1;
     flex-wrap: nowrap;
-    gap: 28px;
-    width: 770px;
+    gap: 24px;
+    width: 768px;
     height: 216px;
     padding: 0px;
     margin: 0px;
@@ -769,7 +775,7 @@ h5
     align-items: center;
     align-content: space-between;
     flex-wrap: nowrap;
-    width: 240px;
+    width: 224px;
     height: 175px;
     padding: 0px;
     margin: 0px;
@@ -788,13 +794,19 @@ h5
     justify-content: center;
     align-items: flex-start;
     flex-basis: 60%;
-    width: 230px;
-    height: 96px;
-    object-fit: cover;
+    width: 224px;
+    height: 105px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card2-image img
+{
+    object-fit: cover;
+    width: 224px;
+    height: 105px;
 }
 
 .card2-info
@@ -916,7 +928,7 @@ h5
     align-content: space-between;
     flex-wrap: nowrap;
     flex-basis: 20%;
-    gap: 24px;
+    gap: 18px;
     width: 336px;
     height: 132px;
     padding: 0px;
@@ -932,10 +944,9 @@ h5
     flex-direction: row;
     justify-content: flex-end;
     align-items: stretch;
-    flex-basis: 40%;
-    width: 120px;
+    flex-basis: 42%;
+    width: 130px;
     height: 120px;
-    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -945,6 +956,13 @@ h5
     border-radius: 20px 0px 0px 20px;
 }
 
+.card3-image img
+{
+    object-fit: cover;
+    width: 130px;
+    height: 120px;
+}
+
 .card3-info
 {
     display: flex;
@@ -952,7 +970,7 @@ h5
     justify-content: space-around;
     align-items: flex-start;
     align-content: space-around;
-    flex-basis: 60%;
+    flex-basis: 58%;
     gap: 24px;
     width: 175px;
     height: 114px;
@@ -980,7 +998,7 @@ h5
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 1344px;
+    width: 1248px;
     height: 30px;
     padding-top: 24px;
     margin: 0px;
@@ -1012,7 +1030,7 @@ h5
     align-content: space-around;
     flex-wrap: wrap;
     gap: 33px;
-    width: 1344px;
+    width: 1248px;
     height: 480px;
     padding: 0px;
     margin: 0px;
@@ -1023,7 +1041,7 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 304px;
+    width: 288px;
     height: 432px;
     padding: 0px;
     margin: 0px;
@@ -1033,13 +1051,19 @@ h5
 
 .card4-image
 {
-    width: 304px;
+    width: 288px;
     height: 384px;
-    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card4-image img
+{   
+    object-fit: cover;
+    width: 288px;
+    height: 384px;
 }
 
 .card4-info
@@ -1048,7 +1072,7 @@ h5
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 304px;
+    width: 288px;
     height: 48px;
     padding: 0px;
     margin: 0px;
@@ -1056,7 +1080,7 @@ h5
 
 .card4-title
 {
-    width: 264px;
+    width: 248px;
     font-size: 16px;
 }
 
@@ -1085,7 +1109,7 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 304px;
+    width: 288px;
     height: 240px;
     padding: 0px;
     margin: 0px;
@@ -1095,13 +1119,19 @@ h5
 
 .card5-image
 {
-    width: 304px;
+    width: 288px;
     height: 192px;
-    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card5-image img
+{
+    object-fit: cover;
+    width: 288px;
+    height: 192px;
 }
 
 .card5-info
@@ -1110,7 +1140,7 @@ h5
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 304px;
+    width: 288px;
     height: 48px;
     padding: 0px;
     margin: 0px;
@@ -1118,7 +1148,7 @@ h5
 
 .card5-title
 {
-    width: 264px;
+    width: 248px;
     font-size: 16px;
 }
 
@@ -1134,7 +1164,7 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 304px;
+    width: 288px;
     height: 160px;
     padding: 0px;
     margin: 0px;
@@ -1144,13 +1174,19 @@ h5
 
 .card7-image
 {
-    width: 304px;
+    width: 288px;
     height: 112px;
-    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card7-image img
+{
+    object-fit: cover;
+    width: 288px;
+    height: 112px;
 }
 
 .card7-info
@@ -1159,7 +1195,7 @@ h5
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 304px;
+    width: 288px;
     height: 48px;
     padding: 0px;
     margin: 0px;
@@ -1167,7 +1203,7 @@ h5
 
 .card7-title
 {
-    width: 264px;
+    width: 248px;
     font-size: 16px;
 }
 
@@ -1196,7 +1232,7 @@ h5
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 304px;
+    width: 288px;
     height: 198px;
     padding: 0px;
     margin: 0px;
@@ -1206,13 +1242,19 @@ h5
 
 .card6-image
 {
-    width: 304px;
+    width: 288px;
     height: 168px;
-    object-fit: cover;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card6-image img
+{
+    object-fit: cover;
+    width: 288px;
+    height: 154px;
 }
 
 .card6-info
@@ -1221,7 +1263,7 @@ h5
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 304px;
+    width: 288px;
     height: 48px;
     padding: 0px;
     margin: 0px;
@@ -1229,7 +1271,7 @@ h5
 
 .card6-title
 {
-    width: 264px;
+    width: 248px;
     font-size: 16px;
 }
 
@@ -1250,7 +1292,7 @@ h5
     align-items: center;
     flex-wrap: nowrap;
     gap: 144px;
-    width: 1440px;
+    width: 1348px;
     height: 240px;
     padding: 0px;
     margin: 0px;
@@ -1281,7 +1323,7 @@ h5
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
-    width: 175px;
+    width: 216px;
     height: 30px;
     font-size: 16px;
     list-style: none;
@@ -1294,7 +1336,7 @@ h5
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
-    width: 288px;
+    width: 216px;
     height: 24px;
     padding: 0px;
     margin: 0px;
