@@ -200,9 +200,9 @@ h5
     align-items: center;
     align-content: center;
     flex-basis: 14%;
-    width: 48px;
-    height: 48px;
-    padding: 0px;
+    width: 46px;
+    height: 46px;
+    padding: 1px;
     margin: 0px;
     color: black;
     background-color: #F2F2F2;
@@ -347,9 +347,9 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
-    padding: 0px;
+    width: 46px;
+    height: 46px;
+    padding: 1px;
     margin: 0px;
     color: #0065FC;
     background-color: #DEEBFF;
@@ -390,9 +390,9 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
-    padding: 0px;
+    width: 46px;
+    height: 46px;
+    padding: 1px;
     margin: 0px;
     color: #0065FC;
     background-color: #DEEBFF;
@@ -433,9 +433,9 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
-    padding: 0px;
+    width: 46px;
+    height: 46px;
+    padding: 1px;
     margin: 0px;
     color: #0065FC;
     background-color: #DEEBFF;
@@ -476,9 +476,9 @@ h5
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48px;
-    height: 48px;
-    padding: 0px;
+    width: 46px;
+    height: 46px;
+    padding: 1px;
     margin: 0px;
     color: #0065FC;
     background-color: #DEEBFF;
@@ -514,9 +514,9 @@ h5
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 24px;
-    height: 24px;
-    padding: 0px;
+    width: 22px;
+    height: 22px;
+    padding: 1px;
     margin: 0px;
     font-size: 16px;
     color: #0065FC;
@@ -1588,11 +1588,11 @@ h5
 
     .fa-magnifying-glass
     {
-        flex-basis: 33%;
-        width: 36px;
-        height: 36px;
-        margin-left: 0px;
-        text-align: center;
+        flex-basis: 70%;
+        width: 46px;
+        height: 46px;
+        padding: 1px;
+        font-size: 17px;
         border-radius: 10px;
         visibility: visible;
     }
