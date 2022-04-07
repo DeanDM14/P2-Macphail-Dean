@@ -194,7 +194,7 @@ h5
 .fa-solid
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
