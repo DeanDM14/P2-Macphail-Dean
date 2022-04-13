@@ -7,6 +7,12 @@ body
     color: black;
 }
 
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
 .maincontainer
 {
     position: relative;
@@ -81,12 +87,6 @@ body
     margin: 0px;
     font-size: 16px;
     font-weight: 500;
-}
-
-a
-{
-    color: black;
-    text-decoration: none;
 }
 
 .nav-links li #accom
